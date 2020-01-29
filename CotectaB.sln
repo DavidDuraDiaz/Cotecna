@@ -3,7 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.1000
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CotectaB.WebApi", "CotectaB.WebApi\CotectaB.WebApi.csproj", "{28066137-CBE7-4CE6-BB9D-AE100691E565}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CotectaB.WebApi", "CotectaB.WebApi\CotectaB.WebApi.csproj", "{28066137-CBE7-4CE6-BB9D-AE100691E565}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CotecnaB.Persistance", "CotecnaB.Persistance\CotecnaB.Persistance.csproj", "{BFDB5E31-66DC-4E55-947A-0059ACE82D1F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CotecnaB.Core", "CotecnaB.Core\CotecnaB.Core.csproj", "{A4D869F6-F660-4266-8CE0-B7A88CA7986B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CotecnaB.Abstractions", "CotecnaB.Abstractions\CotecnaB.Abstractions.csproj", "{84332F4C-EF02-4659-8C44-4CD23E5429B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CotecnaB.Persistance.Tests", "CotecnaB.Persistance.Tests\CotecnaB.Persistance.Tests.csproj", "{90376C53-A235-4FCF-9B54-3746DC0481BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CotectaB.WebApi.Tests", "CotectaB.WebApi.Tests\CotectaB.WebApi.Tests.csproj", "{95C418F3-B816-421A-A145-0D7512BA16E5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +25,26 @@ Global
 		{28066137-CBE7-4CE6-BB9D-AE100691E565}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{28066137-CBE7-4CE6-BB9D-AE100691E565}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{28066137-CBE7-4CE6-BB9D-AE100691E565}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFDB5E31-66DC-4E55-947A-0059ACE82D1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFDB5E31-66DC-4E55-947A-0059ACE82D1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFDB5E31-66DC-4E55-947A-0059ACE82D1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFDB5E31-66DC-4E55-947A-0059ACE82D1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4D869F6-F660-4266-8CE0-B7A88CA7986B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4D869F6-F660-4266-8CE0-B7A88CA7986B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4D869F6-F660-4266-8CE0-B7A88CA7986B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4D869F6-F660-4266-8CE0-B7A88CA7986B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84332F4C-EF02-4659-8C44-4CD23E5429B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84332F4C-EF02-4659-8C44-4CD23E5429B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84332F4C-EF02-4659-8C44-4CD23E5429B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84332F4C-EF02-4659-8C44-4CD23E5429B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90376C53-A235-4FCF-9B54-3746DC0481BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90376C53-A235-4FCF-9B54-3746DC0481BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90376C53-A235-4FCF-9B54-3746DC0481BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90376C53-A235-4FCF-9B54-3746DC0481BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95C418F3-B816-421A-A145-0D7512BA16E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95C418F3-B816-421A-A145-0D7512BA16E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95C418F3-B816-421A-A145-0D7512BA16E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95C418F3-B816-421A-A145-0D7512BA16E5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

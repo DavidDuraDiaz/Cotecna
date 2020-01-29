@@ -1,0 +1,1103 @@
+2020-01-28T20:42:32.2994840+01:00 8000000c-0000-fd00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44337/api/inspection   (ca22a1cb)
+2020-01-28T20:42:32.2994836+01:00 80000002-0001-fd00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44337/api/inspection   (ca22a1cb)
+2020-01-28T20:42:32.2994836+01:00 80000003-0001-fe00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44337/api/values   (ca22a1cb)
+2020-01-28T20:42:32.3960883+01:00 80000003-0001-fe00-b63f-84710c7967bb [INF] Request finished in 118.2297ms 0  (791a596a)
+2020-01-28T20:42:32.8029837+01:00 80000002-0001-fd00-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+CotectaB.WebApi.Controllers.InspectionController.FindAsync (CotectaB.WebApi)
+CotectaB.WebApi.Controllers.InspectionController.GetAllAsync (CotectaB.WebApi)
+CotectaB.WebApi.Controllers.InspectionController.GetFilteredByStatusAsync (CotectaB.WebApi)
+CotectaB.WebApi.Controllers.InspectionController.Create (CotectaB.WebApi)
+CotectaB.WebApi.Controllers.InspectionController.Delete (CotectaB.WebApi)
+CotectaB.WebApi.Controllers.InspectionController.Update (CotectaB.WebApi)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(CandidateSet candidates)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, EndpointSelectorContext context, CandidateSet candidateSet)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.SelectAsync(HttpContext httpContext, EndpointSelectorContext context, CandidateSet candidateSet)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext, EndpointSelectorContext context)
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher.MatchAsync(HttpContext httpContext, EndpointSelectorContext context)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-01-28T20:42:32.8029837+01:00 8000000c-0000-fd00-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+CotectaB.WebApi.Controllers.InspectionController.FindAsync (CotectaB.WebApi)
+CotectaB.WebApi.Controllers.InspectionController.GetAllAsync (CotectaB.WebApi)
+CotectaB.WebApi.Controllers.InspectionController.GetFilteredByStatusAsync (CotectaB.WebApi)
+CotectaB.WebApi.Controllers.InspectionController.Create (CotectaB.WebApi)
+CotectaB.WebApi.Controllers.InspectionController.Delete (CotectaB.WebApi)
+CotectaB.WebApi.Controllers.InspectionController.Update (CotectaB.WebApi)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(CandidateSet candidates)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, EndpointSelectorContext context, CandidateSet candidateSet)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.SelectAsync(HttpContext httpContext, EndpointSelectorContext context, CandidateSet candidateSet)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext, EndpointSelectorContext context)
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher.MatchAsync(HttpContext httpContext, EndpointSelectorContext context)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-01-28T20:42:32.9259269+01:00 80000002-0001-fd00-b63f-84710c7967bb [INF] Request finished in 651.5723ms 500 text/html; charset=utf-8 (791a596a)
+2020-01-28T20:42:32.9265311+01:00 8000000c-0000-fd00-b63f-84710c7967bb [INF] Request finished in 651.5744ms 500 text/html; charset=utf-8 (791a596a)
+2020-01-28T20:42:33.1395037+01:00 80000003-0002-fd00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44337/favicon.ico   (ca22a1cb)
+2020-01-28T20:42:33.1441565+01:00 80000003-0002-fd00-b63f-84710c7967bb [INF] Request finished in 5.2164ms 404  (791a596a)
+2020-01-28T20:48:16.0954119+01:00 80000004-0001-fd00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44337/api/values   (ca22a1cb)
+2020-01-28T20:48:16.1843632+01:00 80000004-0001-fd00-b63f-84710c7967bb [INF] Request finished in 94.0966ms 404  (791a596a)
+2020-01-28T20:48:23.9356831+01:00 80000003-0003-ff00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44337/api/inspection   (ca22a1cb)
+2020-01-28T20:48:23.9412521+01:00 80000003-0003-ff00-b63f-84710c7967bb [INF] Executing endpoint '"CotectaB.WebApi.Controllers.InspectionController.GetAllAsync (CotectaB.WebApi)"' (500cc934)
+2020-01-28T20:48:24.0167649+01:00 80000003-0003-ff00-b63f-84710c7967bb [INF] Route matched with "{action = \"GetAllAsync\", controller = \"Inspection\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllAsync()" on controller "CotectaB.WebApi.Controllers.InspectionController" ("CotectaB.WebApi"). (122b2fdf)
+2020-01-28T20:48:24.0261617+01:00 80000003-0003-ff00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"CotecnaEFContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2020-01-28T20:48:24.0455994+01:00 80000003-0003-ff00-b63f-84710c7967bb [INF] Executing action method "CotectaB.WebApi.Controllers.InspectionController.GetAllAsync (CotectaB.WebApi)" - Validation state: Valid (dad538d7)
+2020-01-28T20:48:24.1935163+01:00 80000003-0003-ff00-b63f-84710c7967bb [INF] Executed DbCommand ("11"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [m].[Id], [m].[Active], [m].[Created], [m].[Deleted], [m].[Discriminator], [m].[Modified], [m].[Address], [m].[Customer], [m].[Observations], [m].[Status]
+FROM [BaseEntity] AS [m]
+WHERE ([m].[Discriminator] = N'Inspection') AND ([m].[Active] = 0)" (0723d8ff)
+2020-01-28T20:48:24.3011988+01:00 80000003-0003-ff00-b63f-84710c7967bb [INF] Returned all inspections from database. (475d94d1)
+2020-01-28T20:48:24.3586760+01:00 80000003-0003-ff00-b63f-84710c7967bb [INF] Executed action method "CotectaB.WebApi.Controllers.InspectionController.GetAllAsync (CotectaB.WebApi)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 306.064ms. (50a9e262)
+2020-01-28T20:48:24.3706261+01:00 80000003-0003-ff00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[CotecnaB.Core.DTOs.InspectionDTO, CotecnaB.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2020-01-28T20:48:24.5388192+01:00 80000003-0003-ff00-b63f-84710c7967bb [INF] Executed action "CotectaB.WebApi.Controllers.InspectionController.GetAllAsync (CotectaB.WebApi)" in 517.3052ms (afa2e885)
+2020-01-28T20:48:24.5432122+01:00 80000003-0003-ff00-b63f-84710c7967bb [INF] Executed endpoint '"CotectaB.WebApi.Controllers.InspectionController.GetAllAsync (CotectaB.WebApi)"' (99874f2b)
+2020-01-28T20:48:24.5521121+01:00 80000003-0003-ff00-b63f-84710c7967bb [INF] Request finished in 616.2679ms 200 application/json; charset=utf-8 (791a596a)
+2020-01-28T20:53:20.8378121+01:00 80000006-0001-fd00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44337/api/inspection/08142ed7-3988-4761-b14a-042e55fd6e5a   (ca22a1cb)
+2020-01-28T20:53:20.8754290+01:00 80000006-0001-fd00-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+CotectaB.WebApi.Controllers.InspectionController.FindAsync (CotectaB.WebApi)
+CotectaB.WebApi.Controllers.InspectionController.GetFilteredByStatusAsync (CotectaB.WebApi)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(CandidateSet candidates)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, EndpointSelectorContext context, CandidateSet candidateSet)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.SelectAsync(HttpContext httpContext, EndpointSelectorContext context, CandidateSet candidateSet)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext, EndpointSelectorContext context)
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher.MatchAsync(HttpContext httpContext, EndpointSelectorContext context)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-01-28T20:53:20.9203431+01:00 80000006-0001-fd00-b63f-84710c7967bb [INF] Request finished in 81.7029ms 500 text/html; charset=utf-8 (791a596a)
+2020-01-28T20:53:34.6499138+01:00 80000005-0002-fd00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44337/api/inspection/GetById?08142ed7-3988-4761-b14a-042e55fd6e5a   (ca22a1cb)
+2020-01-28T20:53:34.6526015+01:00 80000005-0002-fd00-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+CotectaB.WebApi.Controllers.InspectionController.FindAsync (CotectaB.WebApi)
+CotectaB.WebApi.Controllers.InspectionController.GetFilteredByStatusAsync (CotectaB.WebApi)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(CandidateSet candidates)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, EndpointSelectorContext context, CandidateSet candidateSet)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.SelectAsync(HttpContext httpContext, EndpointSelectorContext context, CandidateSet candidateSet)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext, EndpointSelectorContext context)
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher.MatchAsync(HttpContext httpContext, EndpointSelectorContext context)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-01-28T20:53:34.6611601+01:00 80000005-0002-fd00-b63f-84710c7967bb [INF] Request finished in 11.2238ms 500 text/html; charset=utf-8 (791a596a)
+2020-01-28T20:56:55.9629660+01:00 80000008-0001-fd00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44337/api/values   (ca22a1cb)
+2020-01-28T20:56:56.0336656+01:00 80000008-0001-fd00-b63f-84710c7967bb [INF] Request finished in 78.7813ms 404  (791a596a)
+2020-01-28T20:56:58.2730950+01:00 8000000a-0001-fd00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44337/api/inspection   (ca22a1cb)
+2020-01-28T20:56:58.2779452+01:00 8000000a-0001-fd00-b63f-84710c7967bb [INF] Executing endpoint '"CotectaB.WebApi.Controllers.InspectionController.GetAllAsync (CotectaB.WebApi)"' (500cc934)
+2020-01-28T20:56:58.2971555+01:00 8000000a-0001-fd00-b63f-84710c7967bb [INF] Route matched with "{action = \"GetAllAsync\", controller = \"Inspection\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllAsync()" on controller "CotectaB.WebApi.Controllers.InspectionController" ("CotectaB.WebApi"). (122b2fdf)
+2020-01-28T20:56:58.3069347+01:00 8000000a-0001-fd00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"CotecnaEFContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2020-01-28T20:56:58.3155558+01:00 8000000a-0001-fd00-b63f-84710c7967bb [INF] Executing action method "CotectaB.WebApi.Controllers.InspectionController.GetAllAsync (CotectaB.WebApi)" - Validation state: Valid (dad538d7)
+2020-01-28T20:56:58.3657455+01:00 8000000a-0001-fd00-b63f-84710c7967bb [INF] Executed DbCommand ("10"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [m].[Id], [m].[Active], [m].[Created], [m].[Deleted], [m].[Discriminator], [m].[Modified], [m].[Address], [m].[Customer], [m].[Observations], [m].[Status]
+FROM [BaseEntity] AS [m]
+WHERE ([m].[Discriminator] = N'Inspection') AND ([m].[Active] = 0)" (0723d8ff)
+2020-01-28T20:56:58.4375499+01:00 8000000a-0001-fd00-b63f-84710c7967bb [INF] Returned all inspections from database. (475d94d1)
+2020-01-28T20:56:58.4738208+01:00 8000000a-0001-fd00-b63f-84710c7967bb [INF] Executed action method "CotectaB.WebApi.Controllers.InspectionController.GetAllAsync (CotectaB.WebApi)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 153.4607ms. (50a9e262)
+2020-01-28T20:56:58.4858907+01:00 8000000a-0001-fd00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[CotecnaB.Core.DTOs.InspectionDTO, CotecnaB.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2020-01-28T20:56:58.5435159+01:00 8000000a-0001-fd00-b63f-84710c7967bb [INF] Executed action "CotectaB.WebApi.Controllers.InspectionController.GetAllAsync (CotectaB.WebApi)" in 241.4914ms (afa2e885)
+2020-01-28T20:56:58.5488862+01:00 8000000a-0001-fd00-b63f-84710c7967bb [INF] Executed endpoint '"CotectaB.WebApi.Controllers.InspectionController.GetAllAsync (CotectaB.WebApi)"' (99874f2b)
+2020-01-28T20:56:58.5558868+01:00 8000000a-0001-fd00-b63f-84710c7967bb [INF] Request finished in 281.3803ms 200 application/json; charset=utf-8 (791a596a)
+2020-01-28T20:57:10.6648895+01:00 80000005-0003-ff00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44337/api/inspection?08142ed7-3988-4761-b14a-042e55fd6e5a   (ca22a1cb)
+2020-01-28T20:57:10.6672068+01:00 80000005-0003-ff00-b63f-84710c7967bb [INF] Executing endpoint '"CotectaB.WebApi.Controllers.InspectionController.GetAllAsync (CotectaB.WebApi)"' (500cc934)
+2020-01-28T20:57:10.6687845+01:00 80000005-0003-ff00-b63f-84710c7967bb [INF] Route matched with "{action = \"GetAllAsync\", controller = \"Inspection\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllAsync()" on controller "CotectaB.WebApi.Controllers.InspectionController" ("CotectaB.WebApi"). (122b2fdf)
+2020-01-28T20:57:10.6716160+01:00 80000005-0003-ff00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"CotecnaEFContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2020-01-28T20:57:10.6731161+01:00 80000005-0003-ff00-b63f-84710c7967bb [INF] Executing action method "CotectaB.WebApi.Controllers.InspectionController.GetAllAsync (CotectaB.WebApi)" - Validation state: Valid (dad538d7)
+2020-01-28T20:57:10.6984163+01:00 80000005-0003-ff00-b63f-84710c7967bb [INF] Executed DbCommand ("22"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [m].[Id], [m].[Active], [m].[Created], [m].[Deleted], [m].[Discriminator], [m].[Modified], [m].[Address], [m].[Customer], [m].[Observations], [m].[Status]
+FROM [BaseEntity] AS [m]
+WHERE ([m].[Discriminator] = N'Inspection') AND ([m].[Active] = 0)" (0723d8ff)
+2020-01-28T20:57:10.7000584+01:00 80000005-0003-ff00-b63f-84710c7967bb [INF] Returned all inspections from database. (475d94d1)
+2020-01-28T20:57:10.7020320+01:00 80000005-0003-ff00-b63f-84710c7967bb [INF] Executed action method "CotectaB.WebApi.Controllers.InspectionController.GetAllAsync (CotectaB.WebApi)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 27.6277ms. (50a9e262)
+2020-01-28T20:57:10.7034531+01:00 80000005-0003-ff00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[CotecnaB.Core.DTOs.InspectionDTO, CotecnaB.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2020-01-28T20:57:10.7051806+01:00 80000005-0003-ff00-b63f-84710c7967bb [INF] Executed action "CotectaB.WebApi.Controllers.InspectionController.GetAllAsync (CotectaB.WebApi)" in 35.2654ms (afa2e885)
+2020-01-28T20:57:10.7065623+01:00 80000005-0003-ff00-b63f-84710c7967bb [INF] Executed endpoint '"CotectaB.WebApi.Controllers.InspectionController.GetAllAsync (CotectaB.WebApi)"' (99874f2b)
+2020-01-28T20:57:10.7085905+01:00 80000005-0003-ff00-b63f-84710c7967bb [INF] Request finished in 43.5097ms 200 application/json; charset=utf-8 (791a596a)
+2020-01-28T20:57:18.6935524+01:00 80000007-0003-ff00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44337/api/inspection/08142ed7-3988-4761-b14a-042e55fd6e5a   (ca22a1cb)
+2020-01-28T20:57:18.6952461+01:00 80000007-0003-ff00-b63f-84710c7967bb [INF] Executing endpoint '"CotectaB.WebApi.Controllers.InspectionController.FindAsync (CotectaB.WebApi)"' (500cc934)
+2020-01-28T20:57:18.7274201+01:00 80000007-0003-ff00-b63f-84710c7967bb [INF] Route matched with "{action = \"FindAsync\", controller = \"Inspection\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] FindAsync(System.Guid)" on controller "CotectaB.WebApi.Controllers.InspectionController" ("CotectaB.WebApi"). (122b2fdf)
+2020-01-28T20:57:18.7290512+01:00 80000007-0003-ff00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"CotecnaEFContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2020-01-28T20:57:18.7420350+01:00 80000007-0003-ff00-b63f-84710c7967bb [INF] Executing action method "CotectaB.WebApi.Controllers.InspectionController.FindAsync (CotectaB.WebApi)" - Validation state: Valid (dad538d7)
+2020-01-28T20:57:18.7683874+01:00 80000007-0003-ff00-b63f-84710c7967bb [INF] Executed DbCommand ("3"ms) [Parameters=["@__get_Item_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [m].[Id], [m].[Active], [m].[Created], [m].[Deleted], [m].[Discriminator], [m].[Modified], [m].[Address], [m].[Customer], [m].[Observations], [m].[Status]
+FROM [BaseEntity] AS [m]
+WHERE (([m].[Discriminator] = N'Inspection') AND ([m].[Active] = 0)) AND ([m].[Id] = @__get_Item_0)" (0723d8ff)
+2020-01-28T20:57:18.7774958+01:00 80000007-0003-ff00-b63f-84710c7967bb [INF] Returned inspection with id: 08142ed7-3988-4761-b14a-042e55fd6e5a (cac67aa9)
+2020-01-28T20:57:18.7820062+01:00 80000007-0003-ff00-b63f-84710c7967bb [INF] Executed action method "CotectaB.WebApi.Controllers.InspectionController.FindAsync (CotectaB.WebApi)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 38.603ms. (50a9e262)
+2020-01-28T20:57:18.7835902+01:00 80000007-0003-ff00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"CotecnaB.Core.DTOs.InspectionDTO"'. (8a1b66c8)
+2020-01-28T20:57:18.7865931+01:00 80000007-0003-ff00-b63f-84710c7967bb [INF] Executed action "CotectaB.WebApi.Controllers.InspectionController.FindAsync (CotectaB.WebApi)" in 56.4174ms (afa2e885)
+2020-01-28T20:57:18.7884434+01:00 80000007-0003-ff00-b63f-84710c7967bb [INF] Executed endpoint '"CotectaB.WebApi.Controllers.InspectionController.FindAsync (CotectaB.WebApi)"' (99874f2b)
+2020-01-28T20:57:18.7907795+01:00 80000007-0003-ff00-b63f-84710c7967bb [INF] Request finished in 96.6927ms 200 application/json; charset=utf-8 (791a596a)
+2020-01-28T20:57:30.3779424+01:00 8000000c-0001-fd00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44337/api/inspection/New   (ca22a1cb)
+2020-01-28T20:57:30.3797684+01:00 8000000c-0001-fd00-b63f-84710c7967bb [INF] Executing endpoint '"CotectaB.WebApi.Controllers.InspectionController.GetFilteredByStatusAsync (CotectaB.WebApi)"' (500cc934)
+2020-01-28T20:57:30.3877284+01:00 8000000c-0001-fd00-b63f-84710c7967bb [INF] Route matched with "{action = \"GetFilteredByStatusAsync\", controller = \"Inspection\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetFilteredByStatusAsync(CotecnaB.Core.Enums.Status)" on controller "CotectaB.WebApi.Controllers.InspectionController" ("CotectaB.WebApi"). (122b2fdf)
+2020-01-28T20:57:30.3910419+01:00 8000000c-0001-fd00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"CotecnaEFContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2020-01-28T20:57:30.3930198+01:00 8000000c-0001-fd00-b63f-84710c7967bb [INF] Executing action method "CotectaB.WebApi.Controllers.InspectionController.GetFilteredByStatusAsync (CotectaB.WebApi)" - Validation state: Valid (dad538d7)
+2020-01-28T20:57:30.4355953+01:00 8000000c-0001-fd00-b63f-84710c7967bb [INF] Executed DbCommand ("29"ms) [Parameters=["@__status_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [m].[Id], [m].[Active], [m].[Created], [m].[Deleted], [m].[Discriminator], [m].[Modified], [m].[Address], [m].[Customer], [m].[Observations], [m].[Status]
+FROM [BaseEntity] AS [m]
+WHERE (([m].[Discriminator] = N'Inspection') AND ([m].[Active] = 0)) AND ([m].[Status] = @__status_0)" (0723d8ff)
+2020-01-28T20:57:30.4373230+01:00 8000000c-0001-fd00-b63f-84710c7967bb [INF] Returned all inspections from database filtered by status : New (c2c47b7a)
+2020-01-28T20:57:30.4389755+01:00 8000000c-0001-fd00-b63f-84710c7967bb [INF] Executed action method "CotectaB.WebApi.Controllers.InspectionController.GetFilteredByStatusAsync (CotectaB.WebApi)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 44.3859ms. (50a9e262)
+2020-01-28T20:57:30.4404290+01:00 8000000c-0001-fd00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[CotecnaB.Core.DTOs.InspectionDTO, CotecnaB.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2020-01-28T20:57:30.4435112+01:00 8000000c-0001-fd00-b63f-84710c7967bb [INF] Executed action "CotectaB.WebApi.Controllers.InspectionController.GetFilteredByStatusAsync (CotectaB.WebApi)" in 53.0437ms (afa2e885)
+2020-01-28T20:57:30.4464842+01:00 8000000c-0001-fd00-b63f-84710c7967bb [INF] Executed endpoint '"CotectaB.WebApi.Controllers.InspectionController.GetFilteredByStatusAsync (CotectaB.WebApi)"' (99874f2b)
+2020-01-28T20:57:30.4491640+01:00 8000000c-0001-fd00-b63f-84710c7967bb [INF] Request finished in 70.3717ms 200 application/json; charset=utf-8 (791a596a)
+2020-01-28T20:58:14.8267729+01:00 80000009-0003-ff00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44337/api/inspection/New   (ca22a1cb)
+2020-01-28T20:58:14.8309015+01:00 80000009-0003-ff00-b63f-84710c7967bb [INF] Executing endpoint '"CotectaB.WebApi.Controllers.InspectionController.GetFilteredByStatusAsync (CotectaB.WebApi)"' (500cc934)
+2020-01-28T20:58:14.8363472+01:00 80000009-0003-ff00-b63f-84710c7967bb [INF] Route matched with "{action = \"GetFilteredByStatusAsync\", controller = \"Inspection\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetFilteredByStatusAsync(CotecnaB.Core.Enums.Status)" on controller "CotectaB.WebApi.Controllers.InspectionController" ("CotectaB.WebApi"). (122b2fdf)
+2020-01-28T20:58:14.8398814+01:00 80000009-0003-ff00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"CotecnaEFContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2020-01-28T20:58:14.8471169+01:00 80000009-0003-ff00-b63f-84710c7967bb [INF] Executing action method "CotectaB.WebApi.Controllers.InspectionController.GetFilteredByStatusAsync (CotectaB.WebApi)" - Validation state: Valid (dad538d7)
+2020-01-28T20:58:14.8718785+01:00 80000009-0003-ff00-b63f-84710c7967bb [INF] Executed DbCommand ("9"ms) [Parameters=["@__status_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [m].[Id], [m].[Active], [m].[Created], [m].[Deleted], [m].[Discriminator], [m].[Modified], [m].[Address], [m].[Customer], [m].[Observations], [m].[Status]
+FROM [BaseEntity] AS [m]
+WHERE (([m].[Discriminator] = N'Inspection') AND ([m].[Active] = 0)) AND ([m].[Status] = @__status_0)" (0723d8ff)
+2020-01-28T20:58:14.8738300+01:00 80000009-0003-ff00-b63f-84710c7967bb [INF] Returned all inspections from database filtered by status : New (c2c47b7a)
+2020-01-28T20:58:14.8752489+01:00 80000009-0003-ff00-b63f-84710c7967bb [INF] Executed action method "CotectaB.WebApi.Controllers.InspectionController.GetFilteredByStatusAsync (CotectaB.WebApi)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 26.7022ms. (50a9e262)
+2020-01-28T20:58:14.8766477+01:00 80000009-0003-ff00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[CotecnaB.Core.DTOs.InspectionDTO, CotecnaB.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2020-01-28T20:58:14.8785739+01:00 80000009-0003-ff00-b63f-84710c7967bb [INF] Executed action "CotectaB.WebApi.Controllers.InspectionController.GetFilteredByStatusAsync (CotectaB.WebApi)" in 40.5657ms (afa2e885)
+2020-01-28T20:58:14.8819855+01:00 80000009-0003-ff00-b63f-84710c7967bb [INF] Executed endpoint '"CotectaB.WebApi.Controllers.InspectionController.GetFilteredByStatusAsync (CotectaB.WebApi)"' (99874f2b)
+2020-01-28T20:58:14.8837992+01:00 80000009-0003-ff00-b63f-84710c7967bb [INF] Request finished in 57.9198ms 200 application/json; charset=utf-8 (791a596a)
+2020-01-28T20:58:16.7995529+01:00 8000000b-0003-ff00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44337/api/inspection   (ca22a1cb)
+2020-01-28T20:58:16.8030489+01:00 8000000b-0003-ff00-b63f-84710c7967bb [INF] Executing endpoint '"CotectaB.WebApi.Controllers.InspectionController.GetAllAsync (CotectaB.WebApi)"' (500cc934)
+2020-01-28T20:58:16.8067915+01:00 8000000b-0003-ff00-b63f-84710c7967bb [INF] Route matched with "{action = \"GetAllAsync\", controller = \"Inspection\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllAsync()" on controller "CotectaB.WebApi.Controllers.InspectionController" ("CotectaB.WebApi"). (122b2fdf)
+2020-01-28T20:58:16.8091689+01:00 8000000b-0003-ff00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"CotecnaEFContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2020-01-28T20:58:16.8110224+01:00 8000000b-0003-ff00-b63f-84710c7967bb [INF] Executing action method "CotectaB.WebApi.Controllers.InspectionController.GetAllAsync (CotectaB.WebApi)" - Validation state: Valid (dad538d7)
+2020-01-28T20:58:16.8160361+01:00 8000000b-0003-ff00-b63f-84710c7967bb [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [m].[Id], [m].[Active], [m].[Created], [m].[Deleted], [m].[Discriminator], [m].[Modified], [m].[Address], [m].[Customer], [m].[Observations], [m].[Status]
+FROM [BaseEntity] AS [m]
+WHERE ([m].[Discriminator] = N'Inspection') AND ([m].[Active] = 0)" (0723d8ff)
+2020-01-28T20:58:16.8191114+01:00 8000000b-0003-ff00-b63f-84710c7967bb [INF] Returned all inspections from database. (475d94d1)
+2020-01-28T20:58:16.8208908+01:00 8000000b-0003-ff00-b63f-84710c7967bb [INF] Executed action method "CotectaB.WebApi.Controllers.InspectionController.GetAllAsync (CotectaB.WebApi)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 8.1216ms. (50a9e262)
+2020-01-28T20:58:16.8230794+01:00 8000000b-0003-ff00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[CotecnaB.Core.DTOs.InspectionDTO, CotecnaB.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2020-01-28T20:58:16.8247278+01:00 8000000b-0003-ff00-b63f-84710c7967bb [INF] Executed action "CotectaB.WebApi.Controllers.InspectionController.GetAllAsync (CotectaB.WebApi)" in 16.5942ms (afa2e885)
+2020-01-28T20:58:16.8262733+01:00 8000000b-0003-ff00-b63f-84710c7967bb [INF] Executed endpoint '"CotectaB.WebApi.Controllers.InspectionController.GetAllAsync (CotectaB.WebApi)"' (99874f2b)
+2020-01-28T20:58:16.8322299+01:00 8000000b-0003-ff00-b63f-84710c7967bb [INF] Request finished in 35.1624ms 200 application/json; charset=utf-8 (791a596a)
+2020-01-28T20:58:30.0573211+01:00 8000000d-0003-ff00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44337/api/inspection/9b053f73-d34e-49cd-8199-2dce6f793df1   (ca22a1cb)
+2020-01-28T20:58:30.0591644+01:00 8000000d-0003-ff00-b63f-84710c7967bb [INF] Executing endpoint '"CotectaB.WebApi.Controllers.InspectionController.FindAsync (CotectaB.WebApi)"' (500cc934)
+2020-01-28T20:58:30.0612931+01:00 8000000d-0003-ff00-b63f-84710c7967bb [INF] Route matched with "{action = \"FindAsync\", controller = \"Inspection\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] FindAsync(System.Guid)" on controller "CotectaB.WebApi.Controllers.InspectionController" ("CotectaB.WebApi"). (122b2fdf)
+2020-01-28T20:58:30.0640614+01:00 8000000d-0003-ff00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"CotecnaEFContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2020-01-28T20:58:30.0661978+01:00 8000000d-0003-ff00-b63f-84710c7967bb [INF] Executing action method "CotectaB.WebApi.Controllers.InspectionController.FindAsync (CotectaB.WebApi)" - Validation state: Valid (dad538d7)
+2020-01-28T20:58:30.0696579+01:00 8000000d-0003-ff00-b63f-84710c7967bb [INF] Executed DbCommand ("1"ms) [Parameters=["@__get_Item_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [m].[Id], [m].[Active], [m].[Created], [m].[Deleted], [m].[Discriminator], [m].[Modified], [m].[Address], [m].[Customer], [m].[Observations], [m].[Status]
+FROM [BaseEntity] AS [m]
+WHERE (([m].[Discriminator] = N'Inspection') AND ([m].[Active] = 0)) AND ([m].[Id] = @__get_Item_0)" (0723d8ff)
+2020-01-28T20:58:30.0715740+01:00 8000000d-0003-ff00-b63f-84710c7967bb [INF] Returned inspection with id: 9b053f73-d34e-49cd-8199-2dce6f793df1 (a9e66e61)
+2020-01-28T20:58:30.0727630+01:00 8000000d-0003-ff00-b63f-84710c7967bb [INF] Executed action method "CotectaB.WebApi.Controllers.InspectionController.FindAsync (CotectaB.WebApi)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 5.3958ms. (50a9e262)
+2020-01-28T20:58:30.0739368+01:00 8000000d-0003-ff00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"CotecnaB.Core.DTOs.InspectionDTO"'. (8a1b66c8)
+2020-01-28T20:58:30.0752110+01:00 8000000d-0003-ff00-b63f-84710c7967bb [INF] Executed action "CotectaB.WebApi.Controllers.InspectionController.FindAsync (CotectaB.WebApi)" in 12.8183ms (afa2e885)
+2020-01-28T20:58:30.0765360+01:00 8000000d-0003-ff00-b63f-84710c7967bb [INF] Executed endpoint '"CotectaB.WebApi.Controllers.InspectionController.FindAsync (CotectaB.WebApi)"' (99874f2b)
+2020-01-28T20:58:30.0779175+01:00 8000000d-0003-ff00-b63f-84710c7967bb [INF] Request finished in 21.5717ms 200 application/json; charset=utf-8 (791a596a)
+2020-01-28T20:58:38.0654934+01:00 8000000e-0001-fd00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44337/api/inspection/9b053f73-d34e-49cd-8199-2dce6f793df1j   (ca22a1cb)
+2020-01-28T20:58:38.0669978+01:00 8000000e-0001-fd00-b63f-84710c7967bb [INF] Executing endpoint '"CotectaB.WebApi.Controllers.InspectionController.GetFilteredByStatusAsync (CotectaB.WebApi)"' (500cc934)
+2020-01-28T20:58:38.0693060+01:00 8000000e-0001-fd00-b63f-84710c7967bb [INF] Route matched with "{action = \"GetFilteredByStatusAsync\", controller = \"Inspection\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetFilteredByStatusAsync(CotecnaB.Core.Enums.Status)" on controller "CotectaB.WebApi.Controllers.InspectionController" ("CotectaB.WebApi"). (122b2fdf)
+2020-01-28T20:58:38.0714564+01:00 8000000e-0001-fd00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"CotecnaEFContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2020-01-28T20:58:38.2355879+01:00 8000000e-0001-fd00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"Microsoft.AspNetCore.Mvc.ValidationProblemDetails"'. (8a1b66c8)
+2020-01-28T20:58:38.2795292+01:00 8000000e-0001-fd00-b63f-84710c7967bb [INF] Executed action "CotectaB.WebApi.Controllers.InspectionController.GetFilteredByStatusAsync (CotectaB.WebApi)" in 208.3752ms (afa2e885)
+2020-01-28T20:58:38.2811218+01:00 8000000e-0001-fd00-b63f-84710c7967bb [INF] Executed endpoint '"CotectaB.WebApi.Controllers.InspectionController.GetFilteredByStatusAsync (CotectaB.WebApi)"' (99874f2b)
+2020-01-28T20:58:38.2828583+01:00 8000000e-0001-fd00-b63f-84710c7967bb [INF] Request finished in 217.6982ms 400 application/problem+json; charset=utf-8 (791a596a)
+2020-01-28T21:00:33.9410151+01:00 8000000f-0003-ff00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44337/api/inspection/9b053f73-d34e-49cd-8199-2dce6f793df1j   (ca22a1cb)
+2020-01-28T21:00:33.9429191+01:00 8000000f-0003-ff00-b63f-84710c7967bb [INF] Executing endpoint '"CotectaB.WebApi.Controllers.InspectionController.GetFilteredByStatusAsync (CotectaB.WebApi)"' (500cc934)
+2020-01-28T21:00:33.9443267+01:00 8000000f-0003-ff00-b63f-84710c7967bb [INF] Route matched with "{action = \"GetFilteredByStatusAsync\", controller = \"Inspection\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetFilteredByStatusAsync(CotecnaB.Core.Enums.Status)" on controller "CotectaB.WebApi.Controllers.InspectionController" ("CotectaB.WebApi"). (122b2fdf)
+2020-01-28T21:00:33.9459420+01:00 8000000f-0003-ff00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"CotecnaEFContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2020-01-28T21:00:33.9477451+01:00 8000000f-0003-ff00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"Microsoft.AspNetCore.Mvc.ValidationProblemDetails"'. (8a1b66c8)
+2020-01-28T21:00:33.9536589+01:00 8000000f-0003-ff00-b63f-84710c7967bb [INF] Executed action "CotectaB.WebApi.Controllers.InspectionController.GetFilteredByStatusAsync (CotectaB.WebApi)" in 3.7942ms (afa2e885)
+2020-01-28T21:00:33.9550700+01:00 8000000f-0003-ff00-b63f-84710c7967bb [INF] Executed endpoint '"CotectaB.WebApi.Controllers.InspectionController.GetFilteredByStatusAsync (CotectaB.WebApi)"' (99874f2b)
+2020-01-28T21:00:33.9580880+01:00 8000000f-0003-ff00-b63f-84710c7967bb [INF] Request finished in 16.0637ms 400 application/problem+json; charset=utf-8 (791a596a)
+2020-01-28T21:00:41.3201816+01:00 80000010-0001-fd00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44337/api/inspection/9b053f73-d34e-49cd-8199-2dce6f793df2   (ca22a1cb)
+2020-01-28T21:00:41.3215301+01:00 80000010-0001-fd00-b63f-84710c7967bb [INF] Executing endpoint '"CotectaB.WebApi.Controllers.InspectionController.FindAsync (CotectaB.WebApi)"' (500cc934)
+2020-01-28T21:00:41.3227810+01:00 80000010-0001-fd00-b63f-84710c7967bb [INF] Route matched with "{action = \"FindAsync\", controller = \"Inspection\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] FindAsync(System.Guid)" on controller "CotectaB.WebApi.Controllers.InspectionController" ("CotectaB.WebApi"). (122b2fdf)
+2020-01-28T21:00:41.3243764+01:00 80000010-0001-fd00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"CotecnaEFContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2020-01-28T21:00:41.3258386+01:00 80000010-0001-fd00-b63f-84710c7967bb [INF] Executing action method "CotectaB.WebApi.Controllers.InspectionController.FindAsync (CotectaB.WebApi)" - Validation state: Valid (dad538d7)
+2020-01-28T21:00:44.5914345+01:00 80000010-0001-fd00-b63f-84710c7967bb [INF] Executed DbCommand ("4"ms) [Parameters=["@__get_Item_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [m].[Id], [m].[Active], [m].[Created], [m].[Deleted], [m].[Discriminator], [m].[Modified], [m].[Address], [m].[Customer], [m].[Observations], [m].[Status]
+FROM [BaseEntity] AS [m]
+WHERE (([m].[Discriminator] = N'Inspection') AND ([m].[Active] = 0)) AND ([m].[Id] = @__get_Item_0)" (0723d8ff)
+2020-01-28T21:00:48.5361550+01:00 80000010-0001-fd00-b63f-84710c7967bb [ERR] Inspection with id: 9b053f73-d34e-49cd-8199-2dce6f793df2, hasn't been found in db. (11304851)
+2020-01-28T21:00:50.4651373+01:00 80000010-0001-fd00-b63f-84710c7967bb [INF] Executed action method "CotectaB.WebApi.Controllers.InspectionController.FindAsync (CotectaB.WebApi)", returned result "Microsoft.AspNetCore.Mvc.NotFoundResult" in 9136.179ms. (50a9e262)
+2020-01-28T21:00:50.4688101+01:00 80000010-0001-fd00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"Microsoft.AspNetCore.Mvc.ProblemDetails"'. (8a1b66c8)
+2020-01-28T21:00:50.4747466+01:00 80000010-0001-fd00-b63f-84710c7967bb [INF] Executed action "CotectaB.WebApi.Controllers.InspectionController.FindAsync (CotectaB.WebApi)" in 9150.2295ms (afa2e885)
+2020-01-28T21:00:50.4773609+01:00 80000010-0001-fd00-b63f-84710c7967bb [INF] Executed endpoint '"CotectaB.WebApi.Controllers.InspectionController.FindAsync (CotectaB.WebApi)"' (99874f2b)
+2020-01-28T21:00:50.4798762+01:00 80000010-0001-fd00-b63f-84710c7967bb [INF] Request finished in 9159.0028ms 404 application/problem+json; charset=utf-8 (791a596a)
+2020-01-28T21:01:02.2253347+01:00 80000007-0002-fd00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44337/api/inspection/Old   (ca22a1cb)
+2020-01-28T21:01:02.2270424+01:00 80000007-0002-fd00-b63f-84710c7967bb [INF] Executing endpoint '"CotectaB.WebApi.Controllers.InspectionController.GetFilteredByStatusAsync (CotectaB.WebApi)"' (500cc934)
+2020-01-28T21:01:02.2285584+01:00 80000007-0002-fd00-b63f-84710c7967bb [INF] Route matched with "{action = \"GetFilteredByStatusAsync\", controller = \"Inspection\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetFilteredByStatusAsync(CotecnaB.Core.Enums.Status)" on controller "CotectaB.WebApi.Controllers.InspectionController" ("CotectaB.WebApi"). (122b2fdf)
+2020-01-28T21:01:02.2303551+01:00 80000007-0002-fd00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"CotecnaEFContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2020-01-28T21:01:02.2338926+01:00 80000007-0002-fd00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"Microsoft.AspNetCore.Mvc.ValidationProblemDetails"'. (8a1b66c8)
+2020-01-28T21:01:02.2355944+01:00 80000007-0002-fd00-b63f-84710c7967bb [INF] Executed action "CotectaB.WebApi.Controllers.InspectionController.GetFilteredByStatusAsync (CotectaB.WebApi)" in 5.6892ms (afa2e885)
+2020-01-28T21:01:02.2370681+01:00 80000007-0002-fd00-b63f-84710c7967bb [INF] Executed endpoint '"CotectaB.WebApi.Controllers.InspectionController.GetFilteredByStatusAsync (CotectaB.WebApi)"' (99874f2b)
+2020-01-28T21:01:02.2385719+01:00 80000007-0002-fd00-b63f-84710c7967bb [INF] Request finished in 19.5906ms 400 application/problem+json; charset=utf-8 (791a596a)
+2020-01-28T21:01:15.8527183+01:00 80000009-0002-fd00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44337/api/inspection/Old   (ca22a1cb)
+2020-01-28T21:01:15.8542956+01:00 80000009-0002-fd00-b63f-84710c7967bb [INF] Executing endpoint '"CotectaB.WebApi.Controllers.InspectionController.GetFilteredByStatusAsync (CotectaB.WebApi)"' (500cc934)
+2020-01-28T21:01:15.8557344+01:00 80000009-0002-fd00-b63f-84710c7967bb [INF] Route matched with "{action = \"GetFilteredByStatusAsync\", controller = \"Inspection\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetFilteredByStatusAsync(CotecnaB.Core.Enums.Status)" on controller "CotectaB.WebApi.Controllers.InspectionController" ("CotectaB.WebApi"). (122b2fdf)
+2020-01-28T21:01:15.8575017+01:00 80000009-0002-fd00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"CotecnaEFContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2020-01-28T21:01:15.8593252+01:00 80000009-0002-fd00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"Microsoft.AspNetCore.Mvc.ValidationProblemDetails"'. (8a1b66c8)
+2020-01-28T21:01:15.8608905+01:00 80000009-0002-fd00-b63f-84710c7967bb [INF] Executed action "CotectaB.WebApi.Controllers.InspectionController.GetFilteredByStatusAsync (CotectaB.WebApi)" in 3.8227ms (afa2e885)
+2020-01-28T21:01:15.8624170+01:00 80000009-0002-fd00-b63f-84710c7967bb [INF] Executed endpoint '"CotectaB.WebApi.Controllers.InspectionController.GetFilteredByStatusAsync (CotectaB.WebApi)"' (99874f2b)
+2020-01-28T21:01:15.8650489+01:00 80000009-0002-fd00-b63f-84710c7967bb [INF] Request finished in 12.4499ms 400 application/problem+json; charset=utf-8 (791a596a)
+2020-01-28T21:01:17.1943796+01:00 8000000b-0002-fd00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44337/api/inspection/Old   (ca22a1cb)
+2020-01-28T21:01:17.1972097+01:00 8000000b-0002-fd00-b63f-84710c7967bb [INF] Executing endpoint '"CotectaB.WebApi.Controllers.InspectionController.GetFilteredByStatusAsync (CotectaB.WebApi)"' (500cc934)
+2020-01-28T21:01:17.2009626+01:00 8000000b-0002-fd00-b63f-84710c7967bb [INF] Route matched with "{action = \"GetFilteredByStatusAsync\", controller = \"Inspection\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetFilteredByStatusAsync(CotecnaB.Core.Enums.Status)" on controller "CotectaB.WebApi.Controllers.InspectionController" ("CotectaB.WebApi"). (122b2fdf)
+2020-01-28T21:01:17.2043338+01:00 8000000b-0002-fd00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"CotecnaEFContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2020-01-28T21:01:17.2076910+01:00 8000000b-0002-fd00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"Microsoft.AspNetCore.Mvc.ValidationProblemDetails"'. (8a1b66c8)
+2020-01-28T21:01:17.2111841+01:00 8000000b-0002-fd00-b63f-84710c7967bb [INF] Executed action "CotectaB.WebApi.Controllers.InspectionController.GetFilteredByStatusAsync (CotectaB.WebApi)" in 7.087ms (afa2e885)
+2020-01-28T21:01:17.2202707+01:00 8000000b-0002-fd00-b63f-84710c7967bb [INF] Executed endpoint '"CotectaB.WebApi.Controllers.InspectionController.GetFilteredByStatusAsync (CotectaB.WebApi)"' (99874f2b)
+2020-01-28T21:01:17.2237357+01:00 8000000b-0002-fd00-b63f-84710c7967bb [INF] Request finished in 29.7884ms 400 application/problem+json; charset=utf-8 (791a596a)
+2020-01-28T21:01:28.7402255+01:00 80000011-0003-ff00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44337/api/inspection/InProgress   (ca22a1cb)
+2020-01-28T21:01:28.7417829+01:00 80000011-0003-ff00-b63f-84710c7967bb [INF] Executing endpoint '"CotectaB.WebApi.Controllers.InspectionController.GetFilteredByStatusAsync (CotectaB.WebApi)"' (500cc934)
+2020-01-28T21:01:28.7430758+01:00 80000011-0003-ff00-b63f-84710c7967bb [INF] Route matched with "{action = \"GetFilteredByStatusAsync\", controller = \"Inspection\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetFilteredByStatusAsync(CotecnaB.Core.Enums.Status)" on controller "CotectaB.WebApi.Controllers.InspectionController" ("CotectaB.WebApi"). (122b2fdf)
+2020-01-28T21:01:28.7450007+01:00 80000011-0003-ff00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"CotecnaEFContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2020-01-28T21:01:28.7471673+01:00 80000011-0003-ff00-b63f-84710c7967bb [INF] Executing action method "CotectaB.WebApi.Controllers.InspectionController.GetFilteredByStatusAsync (CotectaB.WebApi)" - Validation state: Valid (dad538d7)
+2020-01-28T21:01:30.3266421+01:00 80000011-0003-ff00-b63f-84710c7967bb [INF] Executed DbCommand ("3"ms) [Parameters=["@__status_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [m].[Id], [m].[Active], [m].[Created], [m].[Deleted], [m].[Discriminator], [m].[Modified], [m].[Address], [m].[Customer], [m].[Observations], [m].[Status]
+FROM [BaseEntity] AS [m]
+WHERE (([m].[Discriminator] = N'Inspection') AND ([m].[Active] = 0)) AND ([m].[Status] = @__status_0)" (0723d8ff)
+2020-01-28T21:01:30.3311763+01:00 80000011-0003-ff00-b63f-84710c7967bb [INF] Returned all inspections from database filtered by status : InProgress (dd5224ed)
+2020-01-28T21:01:30.3344871+01:00 80000011-0003-ff00-b63f-84710c7967bb [INF] Executed action method "CotectaB.WebApi.Controllers.InspectionController.GetFilteredByStatusAsync (CotectaB.WebApi)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 1584.176ms. (50a9e262)
+2020-01-28T21:01:30.3368237+01:00 80000011-0003-ff00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[CotecnaB.Core.DTOs.InspectionDTO, CotecnaB.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2020-01-28T21:01:30.3385983+01:00 80000011-0003-ff00-b63f-84710c7967bb [INF] Executed action "CotectaB.WebApi.Controllers.InspectionController.GetFilteredByStatusAsync (CotectaB.WebApi)" in 1593.9956ms (afa2e885)
+2020-01-28T21:01:30.3409126+01:00 80000011-0003-ff00-b63f-84710c7967bb [INF] Executed endpoint '"CotectaB.WebApi.Controllers.InspectionController.GetFilteredByStatusAsync (CotectaB.WebApi)"' (99874f2b)
+2020-01-28T21:01:30.3433864+01:00 80000011-0003-ff00-b63f-84710c7967bb [INF] Request finished in 1602.5443ms 200 application/json; charset=utf-8 (791a596a)
+2020-01-28T21:01:43.2247378+01:00 8000000d-0002-fd00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44337/api/inspection/Done   (ca22a1cb)
+2020-01-28T21:01:43.2260443+01:00 8000000d-0002-fd00-b63f-84710c7967bb [INF] Executing endpoint '"CotectaB.WebApi.Controllers.InspectionController.GetFilteredByStatusAsync (CotectaB.WebApi)"' (500cc934)
+2020-01-28T21:01:43.2277822+01:00 8000000d-0002-fd00-b63f-84710c7967bb [INF] Route matched with "{action = \"GetFilteredByStatusAsync\", controller = \"Inspection\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetFilteredByStatusAsync(CotecnaB.Core.Enums.Status)" on controller "CotectaB.WebApi.Controllers.InspectionController" ("CotectaB.WebApi"). (122b2fdf)
+2020-01-28T21:01:43.2299834+01:00 8000000d-0002-fd00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"CotecnaEFContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2020-01-28T21:01:43.2330071+01:00 8000000d-0002-fd00-b63f-84710c7967bb [INF] Executing action method "CotectaB.WebApi.Controllers.InspectionController.GetFilteredByStatusAsync (CotectaB.WebApi)" - Validation state: Valid (dad538d7)
+2020-01-28T21:01:44.6078679+01:00 8000000d-0002-fd00-b63f-84710c7967bb [INF] Executed DbCommand ("5"ms) [Parameters=["@__status_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [m].[Id], [m].[Active], [m].[Created], [m].[Deleted], [m].[Discriminator], [m].[Modified], [m].[Address], [m].[Customer], [m].[Observations], [m].[Status]
+FROM [BaseEntity] AS [m]
+WHERE (([m].[Discriminator] = N'Inspection') AND ([m].[Active] = 0)) AND ([m].[Status] = @__status_0)" (0723d8ff)
+2020-01-28T21:01:44.6120335+01:00 8000000d-0002-fd00-b63f-84710c7967bb [INF] Returned all inspections from database filtered by status : Done (03495360)
+2020-01-28T21:01:44.6150072+01:00 8000000d-0002-fd00-b63f-84710c7967bb [INF] Executed action method "CotectaB.WebApi.Controllers.InspectionController.GetFilteredByStatusAsync (CotectaB.WebApi)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 1379.1481ms. (50a9e262)
+2020-01-28T21:01:44.6181807+01:00 8000000d-0002-fd00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[CotecnaB.Core.DTOs.InspectionDTO, CotecnaB.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2020-01-28T21:01:44.6254429+01:00 8000000d-0002-fd00-b63f-84710c7967bb [INF] Executed action "CotectaB.WebApi.Controllers.InspectionController.GetFilteredByStatusAsync (CotectaB.WebApi)" in 1390.8537ms (afa2e885)
+2020-01-28T21:01:44.6375866+01:00 8000000d-0002-fd00-b63f-84710c7967bb [INF] Executed endpoint '"CotectaB.WebApi.Controllers.InspectionController.GetFilteredByStatusAsync (CotectaB.WebApi)"' (99874f2b)
+2020-01-28T21:01:44.6443610+01:00 8000000d-0002-fd00-b63f-84710c7967bb [INF] Request finished in 1414.3897ms 200 application/json; charset=utf-8 (791a596a)
+2020-01-28T21:02:49.0119180+01:00 80000012-0001-fd00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44337/api/values   (ca22a1cb)
+2020-01-28T21:02:49.0782295+01:00 80000012-0001-fd00-b63f-84710c7967bb [INF] Request finished in 71.851ms 404  (791a596a)
+2020-01-28T21:02:51.4628206+01:00 8000000e-0000-fd00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44337/api/values   (ca22a1cb)
+2020-01-28T21:02:51.4656990+01:00 8000000e-0000-fd00-b63f-84710c7967bb [INF] Request finished in 3.1339ms 404  (791a596a)
+2020-01-28T21:02:55.6681067+01:00 80000010-0000-fd00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44337/api/inspection   (ca22a1cb)
+2020-01-28T21:02:55.6707552+01:00 80000010-0000-fd00-b63f-84710c7967bb [INF] Executing endpoint '"CotectaB.WebApi.Controllers.InspectionController.GetAllAsync (CotectaB.WebApi)"' (500cc934)
+2020-01-28T21:02:55.6909741+01:00 80000010-0000-fd00-b63f-84710c7967bb [INF] Route matched with "{action = \"GetAllAsync\", controller = \"Inspection\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllAsync()" on controller "CotectaB.WebApi.Controllers.InspectionController" ("CotectaB.WebApi"). (122b2fdf)
+2020-01-28T21:02:55.7015399+01:00 80000010-0000-fd00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"CotecnaEFContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2020-01-28T21:02:55.7105878+01:00 80000010-0000-fd00-b63f-84710c7967bb [INF] Executing action method "CotectaB.WebApi.Controllers.InspectionController.GetAllAsync (CotectaB.WebApi)" - Validation state: Valid (dad538d7)
+2020-01-28T21:02:55.7669682+01:00 80000010-0000-fd00-b63f-84710c7967bb [INF] Executed DbCommand ("14"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [m].[Id], [m].[Active], [m].[Created], [m].[Deleted], [m].[Discriminator], [m].[Modified], [m].[Address], [m].[Customer], [m].[Observations], [m].[Status]
+FROM [BaseEntity] AS [m]
+WHERE ([m].[Discriminator] = N'Inspection') AND ([m].[Active] = 0)" (0723d8ff)
+2020-01-28T21:02:55.8411083+01:00 80000010-0000-fd00-b63f-84710c7967bb [INF] Returned all inspections from database. (475d94d1)
+2020-01-28T21:02:55.8772247+01:00 80000010-0000-fd00-b63f-84710c7967bb [INF] Executed action method "CotectaB.WebApi.Controllers.InspectionController.GetAllAsync (CotectaB.WebApi)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 161.3295ms. (50a9e262)
+2020-01-28T21:02:55.8884541+01:00 80000010-0000-fd00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[CotecnaB.Core.DTOs.InspectionDTO, CotecnaB.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2020-01-28T21:02:55.9483176+01:00 80000010-0000-fd00-b63f-84710c7967bb [INF] Executed action "CotectaB.WebApi.Controllers.InspectionController.GetAllAsync (CotectaB.WebApi)" in 251.9216ms (afa2e885)
+2020-01-28T21:02:55.9520502+01:00 80000010-0000-fd00-b63f-84710c7967bb [INF] Executed endpoint '"CotectaB.WebApi.Controllers.InspectionController.GetAllAsync (CotectaB.WebApi)"' (99874f2b)
+2020-01-28T21:02:55.9623608+01:00 80000010-0000-fd00-b63f-84710c7967bb [INF] Request finished in 294.2389ms 200 application/json; charset=utf-8 (791a596a)
+2020-01-28T21:03:08.3281359+01:00 80000012-0000-fd00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44337/api/inspection/0   (ca22a1cb)
+2020-01-28T21:03:08.3305040+01:00 80000012-0000-fd00-b63f-84710c7967bb [INF] Executing endpoint '"CotectaB.WebApi.Controllers.InspectionController.GetFilteredByStatusAsync (CotectaB.WebApi)"' (500cc934)
+2020-01-28T21:03:08.3480447+01:00 80000012-0000-fd00-b63f-84710c7967bb [INF] Route matched with "{action = \"GetFilteredByStatusAsync\", controller = \"Inspection\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetFilteredByStatusAsync(CotecnaB.Core.Enums.Status)" on controller "CotectaB.WebApi.Controllers.InspectionController" ("CotectaB.WebApi"). (122b2fdf)
+2020-01-28T21:03:08.3497968+01:00 80000012-0000-fd00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"CotecnaEFContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2020-01-28T21:03:08.3630549+01:00 80000012-0000-fd00-b63f-84710c7967bb [INF] Executing action method "CotectaB.WebApi.Controllers.InspectionController.GetFilteredByStatusAsync (CotectaB.WebApi)" - Validation state: Valid (dad538d7)
+2020-01-28T21:03:13.1504625+01:00 80000012-0000-fd00-b63f-84710c7967bb [INF] Executed DbCommand ("9"ms) [Parameters=["@__status_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [m].[Id], [m].[Active], [m].[Created], [m].[Deleted], [m].[Discriminator], [m].[Modified], [m].[Address], [m].[Customer], [m].[Observations], [m].[Status]
+FROM [BaseEntity] AS [m]
+WHERE (([m].[Discriminator] = N'Inspection') AND ([m].[Active] = 0)) AND ([m].[Status] = @__status_0)" (0723d8ff)
+2020-01-28T21:03:13.1536829+01:00 80000012-0000-fd00-b63f-84710c7967bb [INF] Returned all inspections from database filtered by status : New (c2c47b7a)
+2020-01-28T21:03:13.1560118+01:00 80000012-0000-fd00-b63f-84710c7967bb [INF] Executed action method "CotectaB.WebApi.Controllers.InspectionController.GetFilteredByStatusAsync (CotectaB.WebApi)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 4791.524ms. (50a9e262)
+2020-01-28T21:03:13.1588595+01:00 80000012-0000-fd00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[CotecnaB.Core.DTOs.InspectionDTO, CotecnaB.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2020-01-28T21:03:13.1650589+01:00 80000012-0000-fd00-b63f-84710c7967bb [INF] Executed action "CotectaB.WebApi.Controllers.InspectionController.GetFilteredByStatusAsync (CotectaB.WebApi)" in 4813.9533ms (afa2e885)
+2020-01-28T21:03:13.1678622+01:00 80000012-0000-fd00-b63f-84710c7967bb [INF] Executed endpoint '"CotectaB.WebApi.Controllers.InspectionController.GetFilteredByStatusAsync (CotectaB.WebApi)"' (99874f2b)
+2020-01-28T21:03:13.1707521+01:00 80000012-0000-fd00-b63f-84710c7967bb [INF] Request finished in 4842.5756ms 200 application/json; charset=utf-8 (791a596a)
+2020-01-28T21:03:53.6509390+01:00 80000013-0003-ff00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44337/api/values   (ca22a1cb)
+2020-01-28T21:03:53.7327297+01:00 80000013-0003-ff00-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.InvalidOperationException: The constraint reference 'Status' could not be resolved to a type. Register the constraint type with 'Microsoft.AspNetCore.Routing.RouteOptions.ConstraintMap'.
+   at Microsoft.AspNetCore.Routing.DefaultParameterPolicyFactory.Create(RoutePatternParameterPart parameter, String inlineText)
+   at Microsoft.AspNetCore.Routing.ParameterPolicyFactory.Create(RoutePatternParameterPart parameter, RoutePatternParameterPolicyReference reference)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.CreateCandidate(Endpoint endpoint, Int32 score)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.CreateCandidates(IReadOnlyList`1 endpoints)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.AddNode(DfaNode node, DfaState[] states, Int32 exitDestination)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.AddNode(DfaNode node, DfaState[] states, Int32 exitDestination)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.<AddNode>g__Transition|18_0(DfaNode next, <>c__DisplayClass18_0& )
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.AddNode(DfaNode node, DfaState[] states, Int32 exitDestination)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.AddNode(DfaNode node, DfaState[] states, Int32 exitDestination)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.AddNode(DfaNode node, DfaState[] states, Int32 exitDestination)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.Build()
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher.CreateMatcher(IReadOnlyList`1 endpoints)
+   at Microsoft.AspNetCore.Routing.DataSourceDependentCache`1.Initialize()
+   at System.Threading.LazyInitializer.EnsureInitializedCore[T](T& target, Boolean& initialized, Object& syncLock, Func`1 valueFactory)
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher..ctor(EndpointDataSource dataSource, Lifetime lifetime, Func`1 matcherBuilderFactory)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherFactory.CreateMatcher(EndpointDataSource dataSource)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.InitializeCoreAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-01-28T21:03:53.8006382+01:00 80000013-0003-ff00-b63f-84710c7967bb [INF] Request finished in 152.3347ms 500 text/html; charset=utf-8 (791a596a)
+2020-01-28T21:03:55.1278879+01:00 80000002-0001-fc00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44337/api/inspection   (ca22a1cb)
+2020-01-28T21:03:55.1322774+01:00 80000002-0001-fc00-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.InvalidOperationException: The constraint reference 'Status' could not be resolved to a type. Register the constraint type with 'Microsoft.AspNetCore.Routing.RouteOptions.ConstraintMap'.
+   at Microsoft.AspNetCore.Routing.DefaultParameterPolicyFactory.Create(RoutePatternParameterPart parameter, String inlineText)
+   at Microsoft.AspNetCore.Routing.ParameterPolicyFactory.Create(RoutePatternParameterPart parameter, RoutePatternParameterPolicyReference reference)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.CreateCandidate(Endpoint endpoint, Int32 score)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.CreateCandidates(IReadOnlyList`1 endpoints)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.AddNode(DfaNode node, DfaState[] states, Int32 exitDestination)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.AddNode(DfaNode node, DfaState[] states, Int32 exitDestination)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.<AddNode>g__Transition|18_0(DfaNode next, <>c__DisplayClass18_0& )
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.AddNode(DfaNode node, DfaState[] states, Int32 exitDestination)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.AddNode(DfaNode node, DfaState[] states, Int32 exitDestination)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.AddNode(DfaNode node, DfaState[] states, Int32 exitDestination)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.Build()
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher.CreateMatcher(IReadOnlyList`1 endpoints)
+   at Microsoft.AspNetCore.Routing.DataSourceDependentCache`1.Initialize()
+   at System.Threading.LazyInitializer.EnsureInitializedCore[T](T& target, Boolean& initialized, Object& syncLock, Func`1 valueFactory)
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher..ctor(EndpointDataSource dataSource, Lifetime lifetime, Func`1 matcherBuilderFactory)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherFactory.CreateMatcher(EndpointDataSource dataSource)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.InitializeCoreAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-01-28T21:03:55.1421686+01:00 80000002-0001-fc00-b63f-84710c7967bb [INF] Request finished in 13.0233ms 500 text/html; charset=utf-8 (791a596a)
+2020-01-28T21:03:57.9325320+01:00 80000009-0000-ff00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44337/api/inspection/0   (ca22a1cb)
+2020-01-28T21:03:57.9364566+01:00 80000009-0000-ff00-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.InvalidOperationException: The constraint reference 'Status' could not be resolved to a type. Register the constraint type with 'Microsoft.AspNetCore.Routing.RouteOptions.ConstraintMap'.
+   at Microsoft.AspNetCore.Routing.DefaultParameterPolicyFactory.Create(RoutePatternParameterPart parameter, String inlineText)
+   at Microsoft.AspNetCore.Routing.ParameterPolicyFactory.Create(RoutePatternParameterPart parameter, RoutePatternParameterPolicyReference reference)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.CreateCandidate(Endpoint endpoint, Int32 score)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.CreateCandidates(IReadOnlyList`1 endpoints)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.AddNode(DfaNode node, DfaState[] states, Int32 exitDestination)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.AddNode(DfaNode node, DfaState[] states, Int32 exitDestination)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.<AddNode>g__Transition|18_0(DfaNode next, <>c__DisplayClass18_0& )
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.AddNode(DfaNode node, DfaState[] states, Int32 exitDestination)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.AddNode(DfaNode node, DfaState[] states, Int32 exitDestination)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.AddNode(DfaNode node, DfaState[] states, Int32 exitDestination)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.Build()
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher.CreateMatcher(IReadOnlyList`1 endpoints)
+   at Microsoft.AspNetCore.Routing.DataSourceDependentCache`1.Initialize()
+   at System.Threading.LazyInitializer.EnsureInitializedCore[T](T& target, Boolean& initialized, Object& syncLock, Func`1 valueFactory)
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher..ctor(EndpointDataSource dataSource, Lifetime lifetime, Func`1 matcherBuilderFactory)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherFactory.CreateMatcher(EndpointDataSource dataSource)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.InitializeCoreAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-01-28T21:03:57.9411637+01:00 80000009-0000-ff00-b63f-84710c7967bb [INF] Request finished in 8.9443ms 500 text/html; charset=utf-8 (791a596a)
+2020-01-28T21:04:24.8631529+01:00 80000015-0003-ff00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44337/api/values   (ca22a1cb)
+2020-01-28T21:04:24.9340755+01:00 80000015-0003-ff00-b63f-84710c7967bb [INF] Request finished in 77.8132ms 404  (791a596a)
+2020-01-28T21:05:02.8223700+01:00 80000010-0002-fd00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44337/api/values   (ca22a1cb)
+2020-01-28T21:05:02.8947284+01:00 80000010-0002-fd00-b63f-84710c7967bb [INF] Request finished in 77.8799ms 404  (791a596a)
+2020-01-28T21:05:04.2271589+01:00 80000015-0001-fd00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44337/api/inspection   (ca22a1cb)
+2020-01-28T21:05:04.2307554+01:00 80000015-0001-fd00-b63f-84710c7967bb [INF] Executing endpoint '"CotectaB.WebApi.Controllers.InspectionController.GetAllAsync (CotectaB.WebApi)"' (500cc934)
+2020-01-28T21:05:04.2504475+01:00 80000015-0001-fd00-b63f-84710c7967bb [INF] Route matched with "{action = \"GetAllAsync\", controller = \"Inspection\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllAsync()" on controller "CotectaB.WebApi.Controllers.InspectionController" ("CotectaB.WebApi"). (122b2fdf)
+2020-01-28T21:05:04.2619834+01:00 80000015-0001-fd00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"CotecnaEFContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2020-01-28T21:05:04.2715089+01:00 80000015-0001-fd00-b63f-84710c7967bb [INF] Executing action method "CotectaB.WebApi.Controllers.InspectionController.GetAllAsync (CotectaB.WebApi)" - Validation state: Valid (dad538d7)
+2020-01-28T21:05:04.3250306+01:00 80000015-0001-fd00-b63f-84710c7967bb [INF] Executed DbCommand ("15"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [m].[Id], [m].[Active], [m].[Created], [m].[Deleted], [m].[Discriminator], [m].[Modified], [m].[Address], [m].[Customer], [m].[Observations], [m].[Status]
+FROM [BaseEntity] AS [m]
+WHERE ([m].[Discriminator] = N'Inspection') AND ([m].[Active] = 0)" (0723d8ff)
+2020-01-28T21:05:04.4011795+01:00 80000015-0001-fd00-b63f-84710c7967bb [INF] Returned all inspections from database. (475d94d1)
+2020-01-28T21:05:04.4377799+01:00 80000015-0001-fd00-b63f-84710c7967bb [INF] Executed action method "CotectaB.WebApi.Controllers.InspectionController.GetAllAsync (CotectaB.WebApi)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 160.7823ms. (50a9e262)
+2020-01-28T21:05:04.4495584+01:00 80000015-0001-fd00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[CotecnaB.Core.DTOs.InspectionDTO, CotecnaB.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2020-01-28T21:05:04.5106817+01:00 80000015-0001-fd00-b63f-84710c7967bb [INF] Executed action "CotectaB.WebApi.Controllers.InspectionController.GetAllAsync (CotectaB.WebApi)" in 254.8051ms (afa2e885)
+2020-01-28T21:05:04.5138060+01:00 80000015-0001-fd00-b63f-84710c7967bb [INF] Executed endpoint '"CotectaB.WebApi.Controllers.InspectionController.GetAllAsync (CotectaB.WebApi)"' (99874f2b)
+2020-01-28T21:05:04.5264900+01:00 80000015-0001-fd00-b63f-84710c7967bb [INF] Request finished in 297.5309ms 200 application/json; charset=utf-8 (791a596a)
+2020-01-28T21:05:10.0343005+01:00 80000017-0001-fd00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44337/api/inspector   (ca22a1cb)
+2020-01-28T21:05:10.0356366+01:00 80000017-0001-fd00-b63f-84710c7967bb [INF] Executing endpoint '"CotectaB.WebApi.Controllers.InspectorController.GetAllAsync (CotectaB.WebApi)"' (500cc934)
+2020-01-28T21:05:10.0412378+01:00 80000017-0001-fd00-b63f-84710c7967bb [INF] Route matched with "{action = \"GetAllAsync\", controller = \"Inspector\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllAsync()" on controller "CotectaB.WebApi.Controllers.InspectorController" ("CotectaB.WebApi"). (122b2fdf)
+2020-01-28T21:05:10.0593667+01:00 80000017-0001-fd00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"CotecnaEFContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2020-01-28T21:05:10.0616008+01:00 80000017-0001-fd00-b63f-84710c7967bb [INF] Executing action method "CotectaB.WebApi.Controllers.InspectorController.GetAllAsync (CotectaB.WebApi)" - Validation state: Valid (dad538d7)
+2020-01-28T21:05:10.0789939+01:00 80000017-0001-fd00-b63f-84710c7967bb [INF] Executed DbCommand ("7"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [m].[Id], [m].[Active], [m].[Created], [m].[Deleted], [m].[Discriminator], [m].[Modified], [m].[Name]
+FROM [BaseEntity] AS [m]
+WHERE ([m].[Discriminator] = N'Inspector') AND ([m].[Active] = 0)" (0723d8ff)
+2020-01-28T21:05:10.0867456+01:00 80000017-0001-fd00-b63f-84710c7967bb [INF] Returned all inspectors from database. (ea971d54)
+2020-01-28T21:05:10.0944687+01:00 80000017-0001-fd00-b63f-84710c7967bb [INF] Executed action method "CotectaB.WebApi.Controllers.InspectorController.GetAllAsync (CotectaB.WebApi)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 30.7672ms. (50a9e262)
+2020-01-28T21:05:10.0968809+01:00 80000017-0001-fd00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[CotecnaB.Core.DTOs.InspectorDTO, CotecnaB.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2020-01-28T21:05:10.1028573+01:00 80000017-0001-fd00-b63f-84710c7967bb [INF] Executed action "CotectaB.WebApi.Controllers.InspectorController.GetAllAsync (CotectaB.WebApi)" in 60.1118ms (afa2e885)
+2020-01-28T21:05:10.1043296+01:00 80000017-0001-fd00-b63f-84710c7967bb [INF] Executed endpoint '"CotectaB.WebApi.Controllers.InspectorController.GetAllAsync (CotectaB.WebApi)"' (99874f2b)
+2020-01-28T21:05:10.1074208+01:00 80000017-0001-fd00-b63f-84710c7967bb [INF] Request finished in 72.0179ms 200 application/json; charset=utf-8 (791a596a)
+2020-01-28T21:05:22.2122556+01:00 80000014-0000-fd00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44337/api/inspector/69f278b0-fc38-4784-81bd-0eabd9e935b0",   (ca22a1cb)
+2020-01-28T21:05:22.2138646+01:00 80000014-0000-fd00-b63f-84710c7967bb [INF] Executing endpoint '"CotectaB.WebApi.Controllers.InspectorController.GetFilteredByNameAsync (CotectaB.WebApi)"' (500cc934)
+2020-01-28T21:05:22.2306021+01:00 80000014-0000-fd00-b63f-84710c7967bb [INF] Route matched with "{action = \"GetFilteredByNameAsync\", controller = \"Inspector\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetFilteredByNameAsync(System.String)" on controller "CotectaB.WebApi.Controllers.InspectorController" ("CotectaB.WebApi"). (122b2fdf)
+2020-01-28T21:05:22.2323628+01:00 80000014-0000-fd00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"CotecnaEFContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2020-01-28T21:05:22.2442350+01:00 80000014-0000-fd00-b63f-84710c7967bb [INF] Executing action method "CotectaB.WebApi.Controllers.InspectorController.GetFilteredByNameAsync (CotectaB.WebApi)" - Validation state: Valid (dad538d7)
+2020-01-28T21:05:22.2751951+01:00 80000014-0000-fd00-b63f-84710c7967bb [INF] Executed DbCommand ("14"ms) [Parameters=["@__name_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [m].[Id], [m].[Active], [m].[Created], [m].[Deleted], [m].[Discriminator], [m].[Modified], [m].[Name]
+FROM [BaseEntity] AS [m]
+WHERE (([m].[Discriminator] = N'Inspector') AND ([m].[Active] = 0)) AND ([m].[Name] = @__name_0)" (0723d8ff)
+2020-01-28T21:05:22.2775704+01:00 80000014-0000-fd00-b63f-84710c7967bb [INF] Returned all inspectors from database filtered by name : 69f278b0-fc38-4784-81bd-0eabd9e935b0", (c6030ecd)
+2020-01-28T21:05:22.2792784+01:00 80000014-0000-fd00-b63f-84710c7967bb [INF] Executed action method "CotectaB.WebApi.Controllers.InspectorController.GetFilteredByNameAsync (CotectaB.WebApi)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 33.8993ms. (50a9e262)
+2020-01-28T21:05:22.2808231+01:00 80000014-0000-fd00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[CotecnaB.Core.DTOs.InspectorDTO, CotecnaB.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2020-01-28T21:05:22.2822099+01:00 80000014-0000-fd00-b63f-84710c7967bb [INF] Executed action "CotectaB.WebApi.Controllers.InspectorController.GetFilteredByNameAsync (CotectaB.WebApi)" in 50.4622ms (afa2e885)
+2020-01-28T21:05:22.2834175+01:00 80000014-0000-fd00-b63f-84710c7967bb [INF] Executed endpoint '"CotectaB.WebApi.Controllers.InspectorController.GetFilteredByNameAsync (CotectaB.WebApi)"' (99874f2b)
+2020-01-28T21:05:22.2848168+01:00 80000014-0000-fd00-b63f-84710c7967bb [INF] Request finished in 72.8544ms 200 application/json; charset=utf-8 (791a596a)
+2020-01-28T21:05:29.5055529+01:00 80000017-0003-ff00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44337/api/inspector/69f278b0-fc38-4784-81bd-0eabd9e935b0   (ca22a1cb)
+2020-01-28T21:05:29.5076885+01:00 80000017-0003-ff00-b63f-84710c7967bb [INF] Executing endpoint '"CotectaB.WebApi.Controllers.InspectorController.FindAsync (CotectaB.WebApi)"' (500cc934)
+2020-01-28T21:05:29.5131746+01:00 80000017-0003-ff00-b63f-84710c7967bb [INF] Route matched with "{action = \"FindAsync\", controller = \"Inspector\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] FindAsync(System.Guid)" on controller "CotectaB.WebApi.Controllers.InspectorController" ("CotectaB.WebApi"). (122b2fdf)
+2020-01-28T21:05:29.5152053+01:00 80000017-0003-ff00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"CotecnaEFContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2020-01-28T21:05:29.5173070+01:00 80000017-0003-ff00-b63f-84710c7967bb [INF] Executing action method "CotectaB.WebApi.Controllers.InspectorController.FindAsync (CotectaB.WebApi)" - Validation state: Valid (dad538d7)
+2020-01-28T21:05:29.5376232+01:00 80000017-0003-ff00-b63f-84710c7967bb [INF] Executed DbCommand ("2"ms) [Parameters=["@__get_Item_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [m].[Id], [m].[Active], [m].[Created], [m].[Deleted], [m].[Discriminator], [m].[Modified], [m].[Name]
+FROM [BaseEntity] AS [m]
+WHERE (([m].[Discriminator] = N'Inspector') AND ([m].[Active] = 0)) AND ([m].[Id] = @__get_Item_0)" (0723d8ff)
+2020-01-28T21:05:29.5475072+01:00 80000017-0003-ff00-b63f-84710c7967bb [INF] Returned inspector with id: 69f278b0-fc38-4784-81bd-0eabd9e935b0 (8d533c0f)
+2020-01-28T21:05:29.5513152+01:00 80000017-0003-ff00-b63f-84710c7967bb [INF] Executed action method "CotectaB.WebApi.Controllers.InspectorController.FindAsync (CotectaB.WebApi)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 32.7051ms. (50a9e262)
+2020-01-28T21:05:29.5525316+01:00 80000017-0003-ff00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"CotecnaB.Core.DTOs.InspectorDTO"'. (8a1b66c8)
+2020-01-28T21:05:29.5538431+01:00 80000017-0003-ff00-b63f-84710c7967bb [INF] Executed action "CotectaB.WebApi.Controllers.InspectorController.FindAsync (CotectaB.WebApi)" in 39.5665ms (afa2e885)
+2020-01-28T21:05:29.5550923+01:00 80000017-0003-ff00-b63f-84710c7967bb [INF] Executed endpoint '"CotectaB.WebApi.Controllers.InspectorController.FindAsync (CotectaB.WebApi)"' (99874f2b)
+2020-01-28T21:05:29.5567585+01:00 80000017-0003-ff00-b63f-84710c7967bb [INF] Request finished in 51.6154ms 200 application/json; charset=utf-8 (791a596a)
+2020-01-28T21:05:46.3987621+01:00 80000016-0000-fd00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44337/api/inspector/Inspector 1   (ca22a1cb)
+2020-01-28T21:05:46.4005593+01:00 80000016-0000-fd00-b63f-84710c7967bb [INF] Executing endpoint '"CotectaB.WebApi.Controllers.InspectorController.GetFilteredByNameAsync (CotectaB.WebApi)"' (500cc934)
+2020-01-28T21:05:46.4022580+01:00 80000016-0000-fd00-b63f-84710c7967bb [INF] Route matched with "{action = \"GetFilteredByNameAsync\", controller = \"Inspector\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetFilteredByNameAsync(System.String)" on controller "CotectaB.WebApi.Controllers.InspectorController" ("CotectaB.WebApi"). (122b2fdf)
+2020-01-28T21:05:46.4052095+01:00 80000016-0000-fd00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"CotecnaEFContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2020-01-28T21:05:46.4070249+01:00 80000016-0000-fd00-b63f-84710c7967bb [INF] Executing action method "CotectaB.WebApi.Controllers.InspectorController.GetFilteredByNameAsync (CotectaB.WebApi)" - Validation state: Valid (dad538d7)
+2020-01-28T21:05:46.4117124+01:00 80000016-0000-fd00-b63f-84710c7967bb [INF] Executed DbCommand ("1"ms) [Parameters=["@__name_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [m].[Id], [m].[Active], [m].[Created], [m].[Deleted], [m].[Discriminator], [m].[Modified], [m].[Name]
+FROM [BaseEntity] AS [m]
+WHERE (([m].[Discriminator] = N'Inspector') AND ([m].[Active] = 0)) AND ([m].[Name] = @__name_0)" (0723d8ff)
+2020-01-28T21:05:46.4146905+01:00 80000016-0000-fd00-b63f-84710c7967bb [INF] Returned all inspectors from database filtered by name : Inspector 1 (33ebd844)
+2020-01-28T21:05:46.4162455+01:00 80000016-0000-fd00-b63f-84710c7967bb [INF] Executed action method "CotectaB.WebApi.Controllers.InspectorController.GetFilteredByNameAsync (CotectaB.WebApi)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 7.716ms. (50a9e262)
+2020-01-28T21:05:46.4179187+01:00 80000016-0000-fd00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[CotecnaB.Core.DTOs.InspectorDTO, CotecnaB.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2020-01-28T21:05:46.4201967+01:00 80000016-0000-fd00-b63f-84710c7967bb [INF] Executed action "CotectaB.WebApi.Controllers.InspectorController.GetFilteredByNameAsync (CotectaB.WebApi)" in 15.2941ms (afa2e885)
+2020-01-28T21:05:46.4218753+01:00 80000016-0000-fd00-b63f-84710c7967bb [INF] Executed endpoint '"CotectaB.WebApi.Controllers.InspectorController.GetFilteredByNameAsync (CotectaB.WebApi)"' (99874f2b)
+2020-01-28T21:05:46.4244857+01:00 80000016-0000-fd00-b63f-84710c7967bb [INF] Request finished in 25.0021ms 200 application/json; charset=utf-8 (791a596a)
+2020-01-28T21:47:19.7962170+01:00 80000012-0002-fd00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44337/api/values   (ca22a1cb)
+2020-01-28T21:47:19.8629816+01:00 80000012-0002-fd00-b63f-84710c7967bb [INF] Request finished in 72.1767ms 404  (791a596a)
+2020-01-28T21:47:21.1526962+01:00 80000014-0002-fd00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44337/api/inspection   (ca22a1cb)
+2020-01-28T21:47:21.1586005+01:00 80000014-0002-fd00-b63f-84710c7967bb [INF] Executing endpoint '"CotectaB.WebApi.Controllers.InspectionController.GetAllAsync (CotectaB.WebApi)"' (500cc934)
+2020-01-28T21:47:21.1796744+01:00 80000014-0002-fd00-b63f-84710c7967bb [INF] Route matched with "{action = \"GetAllAsync\", controller = \"Inspection\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllAsync()" on controller "CotectaB.WebApi.Controllers.InspectionController" ("CotectaB.WebApi"). (122b2fdf)
+2020-01-28T21:47:21.1933256+01:00 80000014-0002-fd00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"CotecnaEFContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2020-01-28T21:47:21.2023616+01:00 80000014-0002-fd00-b63f-84710c7967bb [INF] Executing action method "CotectaB.WebApi.Controllers.InspectionController.GetAllAsync (CotectaB.WebApi)" - Validation state: Valid (dad538d7)
+2020-01-28T21:47:21.3087380+01:00 80000014-0002-fd00-b63f-84710c7967bb [INF] Executed DbCommand ("11"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [m].[Id], [m].[Active], [m].[Created], [m].[Deleted], [m].[Discriminator], [m].[Modified], [m].[Address], [m].[Customer], [m].[Observations], [m].[Status]
+FROM [BaseEntity] AS [m]
+WHERE ([m].[Discriminator] = N'Inspection') AND ([m].[Active] = 0)
+ORDER BY [m].[Id]" (0723d8ff)
+2020-01-28T21:47:21.4044191+01:00 80000014-0002-fd00-b63f-84710c7967bb [INF] Executed DbCommand ("17"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [i.InspectionInspector].[InspectionId], [i.InspectionInspector].[InspectorId], [i.InspectionInspector].[InspectionDate], [t].[Id], [t].[Active], [t].[Created], [t].[Deleted], [t].[Discriminator], [t].[Modified], [t].[Name]
+FROM [InspectionInspector] AS [i.InspectionInspector]
+INNER JOIN (
+    SELECT [m0].[Id], [m0].[Active], [m0].[Created], [m0].[Deleted], [m0].[Discriminator], [m0].[Modified], [m0].[Name]
+    FROM [BaseEntity] AS [m0]
+    WHERE ([m0].[Discriminator] = N'Inspector') AND ([m0].[Active] = 0)
+) AS [t] ON [i.InspectionInspector].[InspectorId] = [t].[Id]
+INNER JOIN (
+    SELECT [m1].[Id]
+    FROM [BaseEntity] AS [m1]
+    WHERE ([m1].[Discriminator] = N'Inspection') AND ([m1].[Active] = 0)
+) AS [t0] ON [i.InspectionInspector].[InspectionId] = [t0].[Id]
+ORDER BY [t0].[Id]" (0723d8ff)
+2020-01-28T21:47:21.4617396+01:00 80000014-0002-fd00-b63f-84710c7967bb [INF] Returned all inspections from database. (475d94d1)
+2020-01-28T21:47:21.4978013+01:00 80000014-0002-fd00-b63f-84710c7967bb [INF] Executed action method "CotectaB.WebApi.Controllers.InspectionController.GetAllAsync (CotectaB.WebApi)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 290.2923ms. (50a9e262)
+2020-01-28T21:47:21.5100774+01:00 80000014-0002-fd00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[CotecnaB.Core.DTOs.InspectionDTO, CotecnaB.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2020-01-28T21:47:21.5730270+01:00 80000014-0002-fd00-b63f-84710c7967bb [INF] Executed action "CotectaB.WebApi.Controllers.InspectionController.GetAllAsync (CotectaB.WebApi)" in 388.0641ms (afa2e885)
+2020-01-28T21:47:21.5757227+01:00 80000014-0002-fd00-b63f-84710c7967bb [INF] Executed endpoint '"CotectaB.WebApi.Controllers.InspectionController.GetAllAsync (CotectaB.WebApi)"' (99874f2b)
+2020-01-28T21:47:21.5835604+01:00 80000014-0002-fd00-b63f-84710c7967bb [INF] Request finished in 429.8401ms 200 application/json; charset=utf-8 (791a596a)
+2020-01-28T21:47:33.8196195+01:00 80000019-0001-fd00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44337/api/inspection   (ca22a1cb)
+2020-01-28T21:47:33.8217724+01:00 80000019-0001-fd00-b63f-84710c7967bb [INF] Executing endpoint '"CotectaB.WebApi.Controllers.InspectionController.GetAllAsync (CotectaB.WebApi)"' (500cc934)
+2020-01-28T21:47:33.8235166+01:00 80000019-0001-fd00-b63f-84710c7967bb [INF] Route matched with "{action = \"GetAllAsync\", controller = \"Inspection\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllAsync()" on controller "CotectaB.WebApi.Controllers.InspectionController" ("CotectaB.WebApi"). (122b2fdf)
+2020-01-28T21:47:33.8257040+01:00 80000019-0001-fd00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"CotecnaEFContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2020-01-28T21:47:33.8271560+01:00 80000019-0001-fd00-b63f-84710c7967bb [INF] Executing action method "CotectaB.WebApi.Controllers.InspectionController.GetAllAsync (CotectaB.WebApi)" - Validation state: Valid (dad538d7)
+2020-01-28T21:47:41.2271466+01:00 80000019-0001-fd00-b63f-84710c7967bb [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [m].[Id], [m].[Active], [m].[Created], [m].[Deleted], [m].[Discriminator], [m].[Modified], [m].[Address], [m].[Customer], [m].[Observations], [m].[Status]
+FROM [BaseEntity] AS [m]
+WHERE ([m].[Discriminator] = N'Inspection') AND ([m].[Active] = 0)
+ORDER BY [m].[Id]" (0723d8ff)
+2020-01-28T21:47:41.2486951+01:00 80000019-0001-fd00-b63f-84710c7967bb [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [i.InspectionInspector].[InspectionId], [i.InspectionInspector].[InspectorId], [i.InspectionInspector].[InspectionDate], [t].[Id], [t].[Active], [t].[Created], [t].[Deleted], [t].[Discriminator], [t].[Modified], [t].[Name]
+FROM [InspectionInspector] AS [i.InspectionInspector]
+INNER JOIN (
+    SELECT [m0].[Id], [m0].[Active], [m0].[Created], [m0].[Deleted], [m0].[Discriminator], [m0].[Modified], [m0].[Name]
+    FROM [BaseEntity] AS [m0]
+    WHERE ([m0].[Discriminator] = N'Inspector') AND ([m0].[Active] = 0)
+) AS [t] ON [i.InspectionInspector].[InspectorId] = [t].[Id]
+INNER JOIN (
+    SELECT [m1].[Id]
+    FROM [BaseEntity] AS [m1]
+    WHERE ([m1].[Discriminator] = N'Inspection') AND ([m1].[Active] = 0)
+) AS [t0] ON [i.InspectionInspector].[InspectionId] = [t0].[Id]
+ORDER BY [t0].[Id]" (0723d8ff)
+2020-01-28T21:48:31.9271492+01:00 80000019-0001-fd00-b63f-84710c7967bb [INF] Returned all inspections from database. (475d94d1)
+2020-01-28T21:48:44.6393011+01:00 80000019-0001-fd00-b63f-84710c7967bb [INF] Executed action method "CotectaB.WebApi.Controllers.InspectionController.GetAllAsync (CotectaB.WebApi)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 70800.671ms. (50a9e262)
+2020-01-28T21:48:44.6425622+01:00 80000019-0001-fd00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[CotecnaB.Core.DTOs.InspectionDTO, CotecnaB.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2020-01-28T21:48:44.6472400+01:00 80000019-0001-fd00-b63f-84710c7967bb [INF] Executed action "CotectaB.WebApi.Controllers.InspectionController.GetAllAsync (CotectaB.WebApi)" in 70820.4679ms (afa2e885)
+2020-01-28T21:48:44.6487622+01:00 80000019-0001-fd00-b63f-84710c7967bb [INF] Executed endpoint '"CotectaB.WebApi.Controllers.InspectionController.GetAllAsync (CotectaB.WebApi)"' (99874f2b)
+2020-01-28T21:48:44.6545506+01:00 80000019-0001-fd00-b63f-84710c7967bb [INF] Request finished in 70831.1383ms 200 application/json; charset=utf-8 (791a596a)
+2020-01-28T22:00:40.9768126+01:00 80000016-0002-fd00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44337/api/values   (ca22a1cb)
+2020-01-28T22:00:41.0436345+01:00 80000016-0002-fd00-b63f-84710c7967bb [INF] Request finished in 72.9747ms 404  (791a596a)
+2020-01-28T22:01:37.2355020+01:00 80000018-0002-fd00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44337/api/inspection   (ca22a1cb)
+2020-01-28T22:01:37.2400785+01:00 80000018-0002-fd00-b63f-84710c7967bb [INF] Executing endpoint '"CotectaB.WebApi.Controllers.InspectionController.GetAllAsync (CotectaB.WebApi)"' (500cc934)
+2020-01-28T22:01:37.2588367+01:00 80000018-0002-fd00-b63f-84710c7967bb [INF] Route matched with "{action = \"GetAllAsync\", controller = \"Inspection\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllAsync()" on controller "CotectaB.WebApi.Controllers.InspectionController" ("CotectaB.WebApi"). (122b2fdf)
+2020-01-28T22:01:37.2740998+01:00 80000018-0002-fd00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"CotecnaEFContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2020-01-28T22:01:37.2824078+01:00 80000018-0002-fd00-b63f-84710c7967bb [INF] Executing action method "CotectaB.WebApi.Controllers.InspectionController.GetAllAsync (CotectaB.WebApi)" - Validation state: Valid (dad538d7)
+2020-01-28T22:01:42.4046518+01:00 80000018-0002-fd00-b63f-84710c7967bb [INF] Executed DbCommand ("10"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [m].[Id], [m].[Active], [m].[Created], [m].[Deleted], [m].[Discriminator], [m].[Modified], [m].[Address], [m].[Customer], [m].[Observations], [m].[Status]
+FROM [BaseEntity] AS [m]
+WHERE ([m].[Discriminator] = N'Inspection') AND ([m].[Active] = 0)
+ORDER BY [m].[Id]" (0723d8ff)
+2020-01-28T22:01:42.4842121+01:00 80000018-0002-fd00-b63f-84710c7967bb [INF] Executed DbCommand ("12"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [i.InspectionInspector].[InspectionId], [i.InspectionInspector].[InspectorId], [i.InspectionInspector].[InspectionDate], [t].[Id], [t].[Active], [t].[Created], [t].[Deleted], [t].[Discriminator], [t].[Modified], [t].[Name]
+FROM [InspectionInspector] AS [i.InspectionInspector]
+INNER JOIN (
+    SELECT [m0].[Id], [m0].[Active], [m0].[Created], [m0].[Deleted], [m0].[Discriminator], [m0].[Modified], [m0].[Name]
+    FROM [BaseEntity] AS [m0]
+    WHERE ([m0].[Discriminator] = N'Inspector') AND ([m0].[Active] = 0)
+) AS [t] ON [i.InspectionInspector].[InspectorId] = [t].[Id]
+INNER JOIN (
+    SELECT [m1].[Id]
+    FROM [BaseEntity] AS [m1]
+    WHERE ([m1].[Discriminator] = N'Inspection') AND ([m1].[Active] = 0)
+) AS [t0] ON [i.InspectionInspector].[InspectionId] = [t0].[Id]
+ORDER BY [t0].[Id]" (0723d8ff)
+2020-01-28T22:01:42.5284769+01:00 80000018-0002-fd00-b63f-84710c7967bb [INF] Returned all inspections from database. (475d94d1)
+2020-01-28T22:01:42.6405349+01:00 80000018-0002-fd00-b63f-84710c7967bb [ERR] Something went wrong inside GetAllAsync action: Error mapping types.
+
+Mapping types:
+IEnumerable`1 -> IEnumerable`1
+System.Collections.Generic.IEnumerable`1[[CotecnaB.Core.Entities.Inspection, CotecnaB.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.IEnumerable`1[[CotecnaB.Core.DTOs.InspectionDTO, CotecnaB.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] (69a76abd)
+2020-01-28T22:01:42.6477599+01:00 80000018-0002-fd00-b63f-84710c7967bb [INF] Executed action method "CotectaB.WebApi.Controllers.InspectionController.GetAllAsync (CotectaB.WebApi)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 5360.3752ms. (50a9e262)
+2020-01-28T22:01:42.6592287+01:00 80000018-0002-fd00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"System.String"'. (8a1b66c8)
+2020-01-28T22:01:42.6739023+01:00 80000018-0002-fd00-b63f-84710c7967bb [INF] Executed action "CotectaB.WebApi.Controllers.InspectionController.GetAllAsync (CotectaB.WebApi)" in 5410.1061ms (afa2e885)
+2020-01-28T22:01:42.6764281+01:00 80000018-0002-fd00-b63f-84710c7967bb [INF] Executed endpoint '"CotectaB.WebApi.Controllers.InspectionController.GetAllAsync (CotectaB.WebApi)"' (99874f2b)
+2020-01-28T22:01:42.6808334+01:00 80000018-0002-fd00-b63f-84710c7967bb [INF] Request finished in 5447.5611ms 500 text/plain; charset=utf-8 (791a596a)
+2020-01-28T22:01:48.7623343+01:00 80000019-0003-ff00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44337/api/inspection   (ca22a1cb)
+2020-01-28T22:01:48.7641551+01:00 80000019-0003-ff00-b63f-84710c7967bb [INF] Executing endpoint '"CotectaB.WebApi.Controllers.InspectionController.GetAllAsync (CotectaB.WebApi)"' (500cc934)
+2020-01-28T22:01:48.7665737+01:00 80000019-0003-ff00-b63f-84710c7967bb [INF] Route matched with "{action = \"GetAllAsync\", controller = \"Inspection\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllAsync()" on controller "CotectaB.WebApi.Controllers.InspectionController" ("CotectaB.WebApi"). (122b2fdf)
+2020-01-28T22:01:48.7691321+01:00 80000019-0003-ff00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"CotecnaEFContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2020-01-28T22:01:48.7707176+01:00 80000019-0003-ff00-b63f-84710c7967bb [INF] Executing action method "CotectaB.WebApi.Controllers.InspectionController.GetAllAsync (CotectaB.WebApi)" - Validation state: Valid (dad538d7)
+2020-01-28T22:01:48.7746352+01:00 80000019-0003-ff00-b63f-84710c7967bb [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [m].[Id], [m].[Active], [m].[Created], [m].[Deleted], [m].[Discriminator], [m].[Modified], [m].[Address], [m].[Customer], [m].[Observations], [m].[Status]
+FROM [BaseEntity] AS [m]
+WHERE ([m].[Discriminator] = N'Inspection') AND ([m].[Active] = 0)
+ORDER BY [m].[Id]" (0723d8ff)
+2020-01-28T22:01:48.7770597+01:00 80000019-0003-ff00-b63f-84710c7967bb [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [i.InspectionInspector].[InspectionId], [i.InspectionInspector].[InspectorId], [i.InspectionInspector].[InspectionDate], [t].[Id], [t].[Active], [t].[Created], [t].[Deleted], [t].[Discriminator], [t].[Modified], [t].[Name]
+FROM [InspectionInspector] AS [i.InspectionInspector]
+INNER JOIN (
+    SELECT [m0].[Id], [m0].[Active], [m0].[Created], [m0].[Deleted], [m0].[Discriminator], [m0].[Modified], [m0].[Name]
+    FROM [BaseEntity] AS [m0]
+    WHERE ([m0].[Discriminator] = N'Inspector') AND ([m0].[Active] = 0)
+) AS [t] ON [i.InspectionInspector].[InspectorId] = [t].[Id]
+INNER JOIN (
+    SELECT [m1].[Id]
+    FROM [BaseEntity] AS [m1]
+    WHERE ([m1].[Discriminator] = N'Inspection') AND ([m1].[Active] = 0)
+) AS [t0] ON [i.InspectionInspector].[InspectionId] = [t0].[Id]
+ORDER BY [t0].[Id]" (0723d8ff)
+2020-01-28T22:01:48.7794378+01:00 80000019-0003-ff00-b63f-84710c7967bb [INF] Returned all inspections from database. (475d94d1)
+2020-01-28T22:01:48.8322511+01:00 80000019-0003-ff00-b63f-84710c7967bb [ERR] Something went wrong inside GetAllAsync action: Error mapping types.
+
+Mapping types:
+IEnumerable`1 -> IEnumerable`1
+System.Collections.Generic.IEnumerable`1[[CotecnaB.Core.Entities.Inspection, CotecnaB.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.IEnumerable`1[[CotecnaB.Core.DTOs.InspectionDTO, CotecnaB.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] (69a76abd)
+2020-01-28T22:01:48.8346567+01:00 80000019-0003-ff00-b63f-84710c7967bb [INF] Executed action method "CotectaB.WebApi.Controllers.InspectionController.GetAllAsync (CotectaB.WebApi)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 61.6396ms. (50a9e262)
+2020-01-28T22:01:48.8369382+01:00 80000019-0003-ff00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"System.String"'. (8a1b66c8)
+2020-01-28T22:01:48.8384916+01:00 80000019-0003-ff00-b63f-84710c7967bb [INF] Executed action "CotectaB.WebApi.Controllers.InspectionController.GetAllAsync (CotectaB.WebApi)" in 70.7165ms (afa2e885)
+2020-01-28T22:01:48.8398109+01:00 80000019-0003-ff00-b63f-84710c7967bb [INF] Executed endpoint '"CotectaB.WebApi.Controllers.InspectionController.GetAllAsync (CotectaB.WebApi)"' (99874f2b)
+2020-01-28T22:01:48.8410778+01:00 80000019-0003-ff00-b63f-84710c7967bb [INF] Request finished in 79.7047ms 500 text/plain; charset=utf-8 (791a596a)
+2020-01-28T22:01:55.2431968+01:00 8000001b-0003-ff00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44337/api/inspection   (ca22a1cb)
+2020-01-28T22:01:55.2491333+01:00 8000001b-0003-ff00-b63f-84710c7967bb [INF] Executing endpoint '"CotectaB.WebApi.Controllers.InspectionController.GetAllAsync (CotectaB.WebApi)"' (500cc934)
+2020-01-28T22:01:55.2525202+01:00 8000001b-0003-ff00-b63f-84710c7967bb [INF] Route matched with "{action = \"GetAllAsync\", controller = \"Inspection\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllAsync()" on controller "CotectaB.WebApi.Controllers.InspectionController" ("CotectaB.WebApi"). (122b2fdf)
+2020-01-28T22:01:55.2556255+01:00 8000001b-0003-ff00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"CotecnaEFContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2020-01-28T22:01:55.2585920+01:00 8000001b-0003-ff00-b63f-84710c7967bb [INF] Executing action method "CotectaB.WebApi.Controllers.InspectionController.GetAllAsync (CotectaB.WebApi)" - Validation state: Valid (dad538d7)
+2020-01-28T22:02:03.4611978+01:00 8000001b-0003-ff00-b63f-84710c7967bb [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [m].[Id], [m].[Active], [m].[Created], [m].[Deleted], [m].[Discriminator], [m].[Modified], [m].[Address], [m].[Customer], [m].[Observations], [m].[Status]
+FROM [BaseEntity] AS [m]
+WHERE ([m].[Discriminator] = N'Inspection') AND ([m].[Active] = 0)
+ORDER BY [m].[Id]" (0723d8ff)
+2020-01-28T22:02:03.4830872+01:00 8000001b-0003-ff00-b63f-84710c7967bb [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [i.InspectionInspector].[InspectionId], [i.InspectionInspector].[InspectorId], [i.InspectionInspector].[InspectionDate], [t].[Id], [t].[Active], [t].[Created], [t].[Deleted], [t].[Discriminator], [t].[Modified], [t].[Name]
+FROM [InspectionInspector] AS [i.InspectionInspector]
+INNER JOIN (
+    SELECT [m0].[Id], [m0].[Active], [m0].[Created], [m0].[Deleted], [m0].[Discriminator], [m0].[Modified], [m0].[Name]
+    FROM [BaseEntity] AS [m0]
+    WHERE ([m0].[Discriminator] = N'Inspector') AND ([m0].[Active] = 0)
+) AS [t] ON [i.InspectionInspector].[InspectorId] = [t].[Id]
+INNER JOIN (
+    SELECT [m1].[Id]
+    FROM [BaseEntity] AS [m1]
+    WHERE ([m1].[Discriminator] = N'Inspection') AND ([m1].[Active] = 0)
+) AS [t0] ON [i.InspectionInspector].[InspectionId] = [t0].[Id]
+ORDER BY [t0].[Id]" (0723d8ff)
+2020-01-28T22:02:09.4339366+01:00 8000001b-0003-ff00-b63f-84710c7967bb [INF] Returned all inspections from database. (475d94d1)
+2020-01-28T22:06:46.5585192+01:00 8000001a-0002-fd00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44337/api/values   (ca22a1cb)
+2020-01-28T22:06:46.6345016+01:00 8000001a-0002-fd00-b63f-84710c7967bb [INF] Request finished in 81.0702ms 404  (791a596a)
+2020-01-28T22:06:50.5585939+01:00 8000001d-0003-ff00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44337/api/inspection   (ca22a1cb)
+2020-01-28T22:06:50.5627860+01:00 8000001d-0003-ff00-b63f-84710c7967bb [INF] Executing endpoint '"CotectaB.WebApi.Controllers.InspectionController.GetAllAsync (CotectaB.WebApi)"' (500cc934)
+2020-01-28T22:06:50.5817632+01:00 8000001d-0003-ff00-b63f-84710c7967bb [INF] Route matched with "{action = \"GetAllAsync\", controller = \"Inspection\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllAsync()" on controller "CotectaB.WebApi.Controllers.InspectionController" ("CotectaB.WebApi"). (122b2fdf)
+2020-01-28T22:06:50.5913206+01:00 8000001d-0003-ff00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"CotecnaEFContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2020-01-28T22:06:50.5995362+01:00 8000001d-0003-ff00-b63f-84710c7967bb [INF] Executing action method "CotectaB.WebApi.Controllers.InspectionController.GetAllAsync (CotectaB.WebApi)" - Validation state: Valid (dad538d7)
+2020-01-28T22:06:53.6019960+01:00 8000001d-0003-ff00-b63f-84710c7967bb [INF] Executed DbCommand ("10"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [m].[Id], [m].[Active], [m].[Created], [m].[Deleted], [m].[Discriminator], [m].[Modified], [m].[Address], [m].[Customer], [m].[Observations], [m].[Status]
+FROM [BaseEntity] AS [m]
+WHERE ([m].[Discriminator] = N'Inspection') AND ([m].[Active] = 0)
+ORDER BY [m].[Id]" (0723d8ff)
+2020-01-28T22:06:53.7022484+01:00 8000001d-0003-ff00-b63f-84710c7967bb [INF] Executed DbCommand ("14"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [i.InspectionInspector].[InspectionId], [i.InspectionInspector].[InspectorId], [i.InspectionInspector].[InspectionDate], [t].[Id], [t].[Active], [t].[Created], [t].[Deleted], [t].[Discriminator], [t].[Modified], [t].[Name]
+FROM [InspectionInspector] AS [i.InspectionInspector]
+INNER JOIN (
+    SELECT [m0].[Id], [m0].[Active], [m0].[Created], [m0].[Deleted], [m0].[Discriminator], [m0].[Modified], [m0].[Name]
+    FROM [BaseEntity] AS [m0]
+    WHERE ([m0].[Discriminator] = N'Inspector') AND ([m0].[Active] = 0)
+) AS [t] ON [i.InspectionInspector].[InspectorId] = [t].[Id]
+INNER JOIN (
+    SELECT [m1].[Id]
+    FROM [BaseEntity] AS [m1]
+    WHERE ([m1].[Discriminator] = N'Inspection') AND ([m1].[Active] = 0)
+) AS [t0] ON [i.InspectionInspector].[InspectionId] = [t0].[Id]
+ORDER BY [t0].[Id]" (0723d8ff)
+2020-01-28T22:06:54.5434759+01:00 8000001d-0003-ff00-b63f-84710c7967bb [INF] Returned all inspections from database. (475d94d1)
+2020-01-28T22:06:56.5912523+01:00 8000001d-0003-ff00-b63f-84710c7967bb [INF] Executed action method "CotectaB.WebApi.Controllers.InspectionController.GetAllAsync (CotectaB.WebApi)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 5985.3017ms. (50a9e262)
+2020-01-28T22:06:56.6040982+01:00 8000001d-0003-ff00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[CotecnaB.Core.DTOs.InspectionDTO, CotecnaB.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2020-01-28T22:06:56.6689856+01:00 8000001d-0003-ff00-b63f-84710c7967bb [INF] Executed action "CotectaB.WebApi.Controllers.InspectionController.GetAllAsync (CotectaB.WebApi)" in 6082.2575ms (afa2e885)
+2020-01-28T22:06:56.6718449+01:00 8000001d-0003-ff00-b63f-84710c7967bb [INF] Executed endpoint '"CotectaB.WebApi.Controllers.InspectionController.GetAllAsync (CotectaB.WebApi)"' (99874f2b)
+2020-01-28T22:06:56.6767638+01:00 8000001d-0003-ff00-b63f-84710c7967bb [INF] Request finished in 6118.2271ms 200 application/json; charset=utf-8 (791a596a)
+2020-01-28T22:09:21.6917086+01:00 80000002-0002-fb00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44337/api/values   (ca22a1cb)
+2020-01-28T22:09:21.7686418+01:00 80000002-0002-fb00-b63f-84710c7967bb [INF] Request finished in 83.1014ms 404  (791a596a)
+2020-01-28T22:09:28.6520148+01:00 8000001b-0001-fd00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44337/api/inspection   (ca22a1cb)
+2020-01-28T22:09:28.6560738+01:00 8000001b-0001-fd00-b63f-84710c7967bb [INF] Executing endpoint '"CotectaB.WebApi.Controllers.InspectionController.GetAllAsync (CotectaB.WebApi)"' (500cc934)
+2020-01-28T22:09:28.6749146+01:00 8000001b-0001-fd00-b63f-84710c7967bb [INF] Route matched with "{action = \"GetAllAsync\", controller = \"Inspection\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllAsync()" on controller "CotectaB.WebApi.Controllers.InspectionController" ("CotectaB.WebApi"). (122b2fdf)
+2020-01-28T22:09:28.6833575+01:00 8000001b-0001-fd00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"CotecnaEFContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2020-01-28T22:09:28.6930671+01:00 8000001b-0001-fd00-b63f-84710c7967bb [INF] Executing action method "CotectaB.WebApi.Controllers.InspectionController.GetAllAsync (CotectaB.WebApi)" - Validation state: Valid (dad538d7)
+2020-01-28T22:09:31.0033466+01:00 8000001b-0001-fd00-b63f-84710c7967bb [INF] Executed DbCommand ("11"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [m].[Id], [m].[Active], [m].[Created], [m].[Deleted], [m].[Discriminator], [m].[Modified], [m].[Address], [m].[Customer], [m].[Observations], [m].[Status]
+FROM [BaseEntity] AS [m]
+WHERE ([m].[Discriminator] = N'Inspection') AND ([m].[Active] = 0)
+ORDER BY [m].[Id]" (0723d8ff)
+2020-01-28T22:09:31.0870957+01:00 8000001b-0001-fd00-b63f-84710c7967bb [INF] Executed DbCommand ("13"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [i.InspectionInspector].[InspectionId], [i.InspectionInspector].[InspectorId], [i.InspectionInspector].[InspectionDate], [t].[Id], [t].[Active], [t].[Created], [t].[Deleted], [t].[Discriminator], [t].[Modified], [t].[Name]
+FROM [InspectionInspector] AS [i.InspectionInspector]
+INNER JOIN (
+    SELECT [m0].[Id], [m0].[Active], [m0].[Created], [m0].[Deleted], [m0].[Discriminator], [m0].[Modified], [m0].[Name]
+    FROM [BaseEntity] AS [m0]
+    WHERE ([m0].[Discriminator] = N'Inspector') AND ([m0].[Active] = 0)
+) AS [t] ON [i.InspectionInspector].[InspectorId] = [t].[Id]
+INNER JOIN (
+    SELECT [m1].[Id]
+    FROM [BaseEntity] AS [m1]
+    WHERE ([m1].[Discriminator] = N'Inspection') AND ([m1].[Active] = 0)
+) AS [t0] ON [i.InspectionInspector].[InspectionId] = [t0].[Id]
+ORDER BY [t0].[Id]" (0723d8ff)
+2020-01-28T22:09:31.1295101+01:00 8000001b-0001-fd00-b63f-84710c7967bb [INF] Returned all inspections from database. (475d94d1)
+2020-01-28T22:09:31.1597620+01:00 8000001b-0001-fd00-b63f-84710c7967bb [INF] Executed action method "CotectaB.WebApi.Controllers.InspectionController.GetAllAsync (CotectaB.WebApi)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 2461.7743ms. (50a9e262)
+2020-01-28T22:09:31.1718361+01:00 8000001b-0001-fd00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[CotecnaB.Core.DTOs.InspectionDTO, CotecnaB.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2020-01-28T22:09:31.2330912+01:00 8000001b-0001-fd00-b63f-84710c7967bb [INF] Executed action "CotectaB.WebApi.Controllers.InspectionController.GetAllAsync (CotectaB.WebApi)" in 2553.1321ms (afa2e885)
+2020-01-28T22:09:31.2361133+01:00 8000001b-0001-fd00-b63f-84710c7967bb [INF] Executed endpoint '"CotectaB.WebApi.Controllers.InspectionController.GetAllAsync (CotectaB.WebApi)"' (99874f2b)
+2020-01-28T22:09:31.2419802+01:00 8000001b-0001-fd00-b63f-84710c7967bb [INF] Request finished in 2590.2141ms 200 application/json; charset=utf-8 (791a596a)
+2020-01-28T22:11:51.1091484+01:00 8000001d-0001-fd00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44337/api/inspection/08142ed7-3988-4761-b14a-042e55fd6e5a   (ca22a1cb)
+2020-01-28T22:11:51.1113824+01:00 8000001d-0001-fd00-b63f-84710c7967bb [INF] Executing endpoint '"CotectaB.WebApi.Controllers.InspectionController.FindAsync (CotectaB.WebApi)"' (500cc934)
+2020-01-28T22:11:51.1280939+01:00 8000001d-0001-fd00-b63f-84710c7967bb [INF] Route matched with "{action = \"FindAsync\", controller = \"Inspection\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] FindAsync(System.Guid)" on controller "CotectaB.WebApi.Controllers.InspectionController" ("CotectaB.WebApi"). (122b2fdf)
+2020-01-28T22:11:51.1371739+01:00 8000001d-0001-fd00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"CotecnaEFContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2020-01-28T22:11:51.1485617+01:00 8000001d-0001-fd00-b63f-84710c7967bb [INF] Executing action method "CotectaB.WebApi.Controllers.InspectionController.FindAsync (CotectaB.WebApi)" - Validation state: Valid (dad538d7)
+2020-01-28T22:11:51.1855506+01:00 8000001d-0001-fd00-b63f-84710c7967bb [INF] Executed DbCommand ("3"ms) [Parameters=["@__Id_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [m].[Id], [m].[Active], [m].[Created], [m].[Deleted], [m].[Discriminator], [m].[Modified], [m].[Address], [m].[Customer], [m].[Observations], [m].[Status]
+FROM [BaseEntity] AS [m]
+WHERE (([m].[Discriminator] = N'Inspection') AND ([m].[Active] = 0)) AND ([m].[Id] = @__Id_0)
+ORDER BY [m].[Id]" (0723d8ff)
+2020-01-28T22:11:51.1998943+01:00 8000001d-0001-fd00-b63f-84710c7967bb [INF] Executed DbCommand ("4"ms) [Parameters=["@__Id_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [i.InspectionInspector].[InspectionId], [i.InspectionInspector].[InspectorId], [i.InspectionInspector].[InspectionDate], [t].[Id], [t].[Active], [t].[Created], [t].[Deleted], [t].[Discriminator], [t].[Modified], [t].[Name]
+FROM [InspectionInspector] AS [i.InspectionInspector]
+INNER JOIN (
+    SELECT [m0].[Id], [m0].[Active], [m0].[Created], [m0].[Deleted], [m0].[Discriminator], [m0].[Modified], [m0].[Name]
+    FROM [BaseEntity] AS [m0]
+    WHERE ([m0].[Discriminator] = N'Inspector') AND ([m0].[Active] = 0)
+) AS [t] ON [i.InspectionInspector].[InspectorId] = [t].[Id]
+INNER JOIN (
+    SELECT TOP(1) [m1].[Id]
+    FROM [BaseEntity] AS [m1]
+    WHERE (([m1].[Discriminator] = N'Inspection') AND ([m1].[Active] = 0)) AND ([m1].[Id] = @__Id_0)
+    ORDER BY [m1].[Id]
+) AS [t0] ON [i.InspectionInspector].[InspectionId] = [t0].[Id]
+ORDER BY [t0].[Id]" (0723d8ff)
+2020-01-28T22:11:51.2091768+01:00 8000001d-0001-fd00-b63f-84710c7967bb [INF] Returned inspection with id: 08142ed7-3988-4761-b14a-042e55fd6e5a (cac67aa9)
+2020-01-28T22:11:51.2165316+01:00 8000001d-0001-fd00-b63f-84710c7967bb [INF] Executed action method "CotectaB.WebApi.Controllers.InspectionController.FindAsync (CotectaB.WebApi)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 66.2054ms. (50a9e262)
+2020-01-28T22:11:51.2181912+01:00 8000001d-0001-fd00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"CotecnaB.Core.DTOs.InspectionDTO"'. (8a1b66c8)
+2020-01-28T22:11:51.2212580+01:00 8000001d-0001-fd00-b63f-84710c7967bb [INF] Executed action "CotectaB.WebApi.Controllers.InspectionController.FindAsync (CotectaB.WebApi)" in 90.8717ms (afa2e885)
+2020-01-28T22:11:51.2239009+01:00 8000001d-0001-fd00-b63f-84710c7967bb [INF] Executed endpoint '"CotectaB.WebApi.Controllers.InspectionController.FindAsync (CotectaB.WebApi)"' (99874f2b)
+2020-01-28T22:11:51.2270011+01:00 8000001d-0001-fd00-b63f-84710c7967bb [INF] Request finished in 117.4105ms 200 application/json; charset=utf-8 (791a596a)
+2020-01-28T22:11:58.6407039+01:00 8000001f-0001-fd00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44337/api/inspection/New   (ca22a1cb)
+2020-01-28T22:11:58.6423305+01:00 8000001f-0001-fd00-b63f-84710c7967bb [INF] Executing endpoint '"CotectaB.WebApi.Controllers.InspectionController.GetFilteredByStatusAsync (CotectaB.WebApi)"' (500cc934)
+2020-01-28T22:11:58.6500194+01:00 8000001f-0001-fd00-b63f-84710c7967bb [INF] Route matched with "{action = \"GetFilteredByStatusAsync\", controller = \"Inspection\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetFilteredByStatusAsync(CotecnaB.Core.Enums.Status)" on controller "CotectaB.WebApi.Controllers.InspectionController" ("CotectaB.WebApi"). (122b2fdf)
+2020-01-28T22:11:58.6515560+01:00 8000001f-0001-fd00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"CotecnaEFContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2020-01-28T22:11:58.6533129+01:00 8000001f-0001-fd00-b63f-84710c7967bb [INF] Executing action method "CotectaB.WebApi.Controllers.InspectionController.GetFilteredByStatusAsync (CotectaB.WebApi)" - Validation state: Valid (dad538d7)
+2020-01-28T22:11:58.6804161+01:00 8000001f-0001-fd00-b63f-84710c7967bb [INF] Executed DbCommand ("3"ms) [Parameters=["@__status_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [m].[Id], [m].[Active], [m].[Created], [m].[Deleted], [m].[Discriminator], [m].[Modified], [m].[Address], [m].[Customer], [m].[Observations], [m].[Status]
+FROM [BaseEntity] AS [m]
+WHERE (([m].[Discriminator] = N'Inspection') AND ([m].[Active] = 0)) AND ([m].[Status] = @__status_0)
+ORDER BY [m].[Id]" (0723d8ff)
+2020-01-28T22:11:58.6912550+01:00 8000001f-0001-fd00-b63f-84710c7967bb [INF] Executed DbCommand ("5"ms) [Parameters=["@__status_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [o.InspectionInspector].[InspectionId], [o.InspectionInspector].[InspectorId], [o.InspectionInspector].[InspectionDate], [t].[Id], [t].[Active], [t].[Created], [t].[Deleted], [t].[Discriminator], [t].[Modified], [t].[Name]
+FROM [InspectionInspector] AS [o.InspectionInspector]
+INNER JOIN (
+    SELECT [m0].[Id], [m0].[Active], [m0].[Created], [m0].[Deleted], [m0].[Discriminator], [m0].[Modified], [m0].[Name]
+    FROM [BaseEntity] AS [m0]
+    WHERE ([m0].[Discriminator] = N'Inspector') AND ([m0].[Active] = 0)
+) AS [t] ON [o.InspectionInspector].[InspectorId] = [t].[Id]
+INNER JOIN (
+    SELECT [m1].[Id]
+    FROM [BaseEntity] AS [m1]
+    WHERE (([m1].[Discriminator] = N'Inspection') AND ([m1].[Active] = 0)) AND ([m1].[Status] = @__status_0)
+) AS [t0] ON [o.InspectionInspector].[InspectionId] = [t0].[Id]
+ORDER BY [t0].[Id]" (0723d8ff)
+2020-01-28T22:11:58.6963762+01:00 8000001f-0001-fd00-b63f-84710c7967bb [INF] Returned all inspections from database filtered by status : New (c2c47b7a)
+2020-01-28T22:11:58.6991732+01:00 8000001f-0001-fd00-b63f-84710c7967bb [INF] Executed action method "CotectaB.WebApi.Controllers.InspectionController.GetFilteredByStatusAsync (CotectaB.WebApi)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 44.0307ms. (50a9e262)
+2020-01-28T22:11:58.7004410+01:00 8000001f-0001-fd00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[CotecnaB.Core.DTOs.InspectionDTO, CotecnaB.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2020-01-28T22:11:58.7017441+01:00 8000001f-0001-fd00-b63f-84710c7967bb [INF] Executed action "CotectaB.WebApi.Controllers.InspectionController.GetFilteredByStatusAsync (CotectaB.WebApi)" in 50.6556ms (afa2e885)
+2020-01-28T22:11:58.7029960+01:00 8000001f-0001-fd00-b63f-84710c7967bb [INF] Executed endpoint '"CotectaB.WebApi.Controllers.InspectionController.GetFilteredByStatusAsync (CotectaB.WebApi)"' (99874f2b)
+2020-01-28T22:11:58.7044328+01:00 8000001f-0001-fd00-b63f-84710c7967bb [INF] Request finished in 64.2913ms 200 application/json; charset=utf-8 (791a596a)
+2020-01-28T22:12:03.7928673+01:00 8000001f-0003-ff00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44337/api/inspection/Done   (ca22a1cb)
+2020-01-28T22:12:03.7954196+01:00 8000001f-0003-ff00-b63f-84710c7967bb [INF] Executing endpoint '"CotectaB.WebApi.Controllers.InspectionController.GetFilteredByStatusAsync (CotectaB.WebApi)"' (500cc934)
+2020-01-28T22:12:03.7975037+01:00 8000001f-0003-ff00-b63f-84710c7967bb [INF] Route matched with "{action = \"GetFilteredByStatusAsync\", controller = \"Inspection\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetFilteredByStatusAsync(CotecnaB.Core.Enums.Status)" on controller "CotectaB.WebApi.Controllers.InspectionController" ("CotectaB.WebApi"). (122b2fdf)
+2020-01-28T22:12:03.7997985+01:00 8000001f-0003-ff00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"CotecnaEFContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2020-01-28T22:12:03.8018674+01:00 8000001f-0003-ff00-b63f-84710c7967bb [INF] Executing action method "CotectaB.WebApi.Controllers.InspectionController.GetFilteredByStatusAsync (CotectaB.WebApi)" - Validation state: Valid (dad538d7)
+2020-01-28T22:12:03.8062186+01:00 8000001f-0003-ff00-b63f-84710c7967bb [INF] Executed DbCommand ("1"ms) [Parameters=["@__status_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [m].[Id], [m].[Active], [m].[Created], [m].[Deleted], [m].[Discriminator], [m].[Modified], [m].[Address], [m].[Customer], [m].[Observations], [m].[Status]
+FROM [BaseEntity] AS [m]
+WHERE (([m].[Discriminator] = N'Inspection') AND ([m].[Active] = 0)) AND ([m].[Status] = @__status_0)
+ORDER BY [m].[Id]" (0723d8ff)
+2020-01-28T22:12:03.8085251+01:00 8000001f-0003-ff00-b63f-84710c7967bb [INF] Executed DbCommand ("1"ms) [Parameters=["@__status_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [o.InspectionInspector].[InspectionId], [o.InspectionInspector].[InspectorId], [o.InspectionInspector].[InspectionDate], [t].[Id], [t].[Active], [t].[Created], [t].[Deleted], [t].[Discriminator], [t].[Modified], [t].[Name]
+FROM [InspectionInspector] AS [o.InspectionInspector]
+INNER JOIN (
+    SELECT [m0].[Id], [m0].[Active], [m0].[Created], [m0].[Deleted], [m0].[Discriminator], [m0].[Modified], [m0].[Name]
+    FROM [BaseEntity] AS [m0]
+    WHERE ([m0].[Discriminator] = N'Inspector') AND ([m0].[Active] = 0)
+) AS [t] ON [o.InspectionInspector].[InspectorId] = [t].[Id]
+INNER JOIN (
+    SELECT [m1].[Id]
+    FROM [BaseEntity] AS [m1]
+    WHERE (([m1].[Discriminator] = N'Inspection') AND ([m1].[Active] = 0)) AND ([m1].[Status] = @__status_0)
+) AS [t0] ON [o.InspectionInspector].[InspectionId] = [t0].[Id]
+ORDER BY [t0].[Id]" (0723d8ff)
+2020-01-28T22:12:03.8103976+01:00 8000001f-0003-ff00-b63f-84710c7967bb [INF] Returned all inspections from database filtered by status : Done (03495360)
+2020-01-28T22:12:03.8120053+01:00 8000001f-0003-ff00-b63f-84710c7967bb [INF] Executed action method "CotectaB.WebApi.Controllers.InspectionController.GetFilteredByStatusAsync (CotectaB.WebApi)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 8.6231ms. (50a9e262)
+2020-01-28T22:12:03.8134657+01:00 8000001f-0003-ff00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[CotecnaB.Core.DTOs.InspectionDTO, CotecnaB.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2020-01-28T22:12:03.8150625+01:00 8000001f-0003-ff00-b63f-84710c7967bb [INF] Executed action "CotectaB.WebApi.Controllers.InspectionController.GetFilteredByStatusAsync (CotectaB.WebApi)" in 16.2433ms (afa2e885)
+2020-01-28T22:12:03.8201533+01:00 8000001f-0003-ff00-b63f-84710c7967bb [INF] Executed endpoint '"CotectaB.WebApi.Controllers.InspectionController.GetFilteredByStatusAsync (CotectaB.WebApi)"' (99874f2b)
+2020-01-28T22:12:03.8221443+01:00 8000001f-0003-ff00-b63f-84710c7967bb [INF] Request finished in 29.4823ms 200 application/json; charset=utf-8 (791a596a)
+2020-01-28T22:12:11.8685084+01:00 8000000f-0000-ff00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44337/api/inspection/InProgress   (ca22a1cb)
+2020-01-28T22:12:11.8700830+01:00 8000000f-0000-ff00-b63f-84710c7967bb [INF] Executing endpoint '"CotectaB.WebApi.Controllers.InspectionController.GetFilteredByStatusAsync (CotectaB.WebApi)"' (500cc934)
+2020-01-28T22:12:11.8722512+01:00 8000000f-0000-ff00-b63f-84710c7967bb [INF] Route matched with "{action = \"GetFilteredByStatusAsync\", controller = \"Inspection\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetFilteredByStatusAsync(CotecnaB.Core.Enums.Status)" on controller "CotectaB.WebApi.Controllers.InspectionController" ("CotectaB.WebApi"). (122b2fdf)
+2020-01-28T22:12:11.8744424+01:00 8000000f-0000-ff00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"CotecnaEFContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2020-01-28T22:12:11.8760398+01:00 8000000f-0000-ff00-b63f-84710c7967bb [INF] Executing action method "CotectaB.WebApi.Controllers.InspectionController.GetFilteredByStatusAsync (CotectaB.WebApi)" - Validation state: Valid (dad538d7)
+2020-01-28T22:12:11.8797342+01:00 8000000f-0000-ff00-b63f-84710c7967bb [INF] Executed DbCommand ("1"ms) [Parameters=["@__status_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [m].[Id], [m].[Active], [m].[Created], [m].[Deleted], [m].[Discriminator], [m].[Modified], [m].[Address], [m].[Customer], [m].[Observations], [m].[Status]
+FROM [BaseEntity] AS [m]
+WHERE (([m].[Discriminator] = N'Inspection') AND ([m].[Active] = 0)) AND ([m].[Status] = @__status_0)
+ORDER BY [m].[Id]" (0723d8ff)
+2020-01-28T22:12:11.8820968+01:00 8000000f-0000-ff00-b63f-84710c7967bb [INF] Executed DbCommand ("1"ms) [Parameters=["@__status_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [o.InspectionInspector].[InspectionId], [o.InspectionInspector].[InspectorId], [o.InspectionInspector].[InspectionDate], [t].[Id], [t].[Active], [t].[Created], [t].[Deleted], [t].[Discriminator], [t].[Modified], [t].[Name]
+FROM [InspectionInspector] AS [o.InspectionInspector]
+INNER JOIN (
+    SELECT [m0].[Id], [m0].[Active], [m0].[Created], [m0].[Deleted], [m0].[Discriminator], [m0].[Modified], [m0].[Name]
+    FROM [BaseEntity] AS [m0]
+    WHERE ([m0].[Discriminator] = N'Inspector') AND ([m0].[Active] = 0)
+) AS [t] ON [o.InspectionInspector].[InspectorId] = [t].[Id]
+INNER JOIN (
+    SELECT [m1].[Id]
+    FROM [BaseEntity] AS [m1]
+    WHERE (([m1].[Discriminator] = N'Inspection') AND ([m1].[Active] = 0)) AND ([m1].[Status] = @__status_0)
+) AS [t0] ON [o.InspectionInspector].[InspectionId] = [t0].[Id]
+ORDER BY [t0].[Id]" (0723d8ff)
+2020-01-28T22:12:11.8836388+01:00 8000000f-0000-ff00-b63f-84710c7967bb [INF] Returned all inspections from database filtered by status : InProgress (dd5224ed)
+2020-01-28T22:12:11.8848469+01:00 8000000f-0000-ff00-b63f-84710c7967bb [INF] Executed action method "CotectaB.WebApi.Controllers.InspectionController.GetFilteredByStatusAsync (CotectaB.WebApi)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 7.4631ms. (50a9e262)
+2020-01-28T22:12:11.8860663+01:00 8000000f-0000-ff00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[CotecnaB.Core.DTOs.InspectionDTO, CotecnaB.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2020-01-28T22:12:11.8873316+01:00 8000000f-0000-ff00-b63f-84710c7967bb [INF] Executed action "CotectaB.WebApi.Controllers.InspectionController.GetFilteredByStatusAsync (CotectaB.WebApi)" in 13.9988ms (afa2e885)
+2020-01-28T22:12:11.8885723+01:00 8000000f-0000-ff00-b63f-84710c7967bb [INF] Executed endpoint '"CotectaB.WebApi.Controllers.InspectionController.GetFilteredByStatusAsync (CotectaB.WebApi)"' (99874f2b)
+2020-01-28T22:12:11.8899790+01:00 8000000f-0000-ff00-b63f-84710c7967bb [INF] Request finished in 22.6413ms 200 application/json; charset=utf-8 (791a596a)
+2020-01-28T22:13:04.7609576+01:00 8000001d-0002-fd00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44337/api/values   (ca22a1cb)
+2020-01-28T22:13:04.8289655+01:00 8000001d-0002-fd00-b63f-84710c7967bb [INF] Request finished in 73.4301ms 404  (791a596a)
+2020-01-28T22:13:06.5835506+01:00 8000001f-0002-fd00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44337/api/inspection   (ca22a1cb)
+2020-01-28T22:13:06.5888279+01:00 8000001f-0002-fd00-b63f-84710c7967bb [INF] Executing endpoint '"CotectaB.WebApi.Controllers.InspectionController.GetAllAsync (CotectaB.WebApi)"' (500cc934)
+2020-01-28T22:13:06.6105031+01:00 8000001f-0002-fd00-b63f-84710c7967bb [INF] Route matched with "{action = \"GetAllAsync\", controller = \"Inspection\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllAsync()" on controller "CotectaB.WebApi.Controllers.InspectionController" ("CotectaB.WebApi"). (122b2fdf)
+2020-01-28T22:13:06.6204433+01:00 8000001f-0002-fd00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"CotecnaEFContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2020-01-28T22:13:06.6286168+01:00 8000001f-0002-fd00-b63f-84710c7967bb [INF] Executing action method "CotectaB.WebApi.Controllers.InspectionController.GetAllAsync (CotectaB.WebApi)" - Validation state: Valid (dad538d7)
+2020-01-28T22:13:06.7642448+01:00 8000001f-0002-fd00-b63f-84710c7967bb [INF] Executed DbCommand ("19"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [m].[Id], [m].[Active], [m].[Created], [m].[Deleted], [m].[Discriminator], [m].[Modified], [m].[Address], [m].[Customer], [m].[Observations], [m].[Status]
+FROM [BaseEntity] AS [m]
+WHERE ([m].[Discriminator] = N'Inspection') AND ([m].[Active] = 0)
+ORDER BY [m].[Id]" (0723d8ff)
+2020-01-28T22:13:06.8756352+01:00 8000001f-0002-fd00-b63f-84710c7967bb [INF] Executed DbCommand ("30"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [i.InspectionInspector].[InspectionId], [i.InspectionInspector].[InspectorId], [i.InspectionInspector].[InspectionDate], [t].[Id], [t].[Active], [t].[Created], [t].[Deleted], [t].[Discriminator], [t].[Modified], [t].[Name]
+FROM [InspectionInspector] AS [i.InspectionInspector]
+INNER JOIN (
+    SELECT [m0].[Id], [m0].[Active], [m0].[Created], [m0].[Deleted], [m0].[Discriminator], [m0].[Modified], [m0].[Name]
+    FROM [BaseEntity] AS [m0]
+    WHERE ([m0].[Discriminator] = N'Inspector') AND ([m0].[Active] = 0)
+) AS [t] ON [i.InspectionInspector].[InspectorId] = [t].[Id]
+INNER JOIN (
+    SELECT [m1].[Id]
+    FROM [BaseEntity] AS [m1]
+    WHERE ([m1].[Discriminator] = N'Inspection') AND ([m1].[Active] = 0)
+) AS [t0] ON [i.InspectionInspector].[InspectionId] = [t0].[Id]
+ORDER BY [t0].[Id]" (0723d8ff)
+2020-01-28T22:13:06.9214518+01:00 8000001f-0002-fd00-b63f-84710c7967bb [INF] Returned all inspections from database. (475d94d1)
+2020-01-28T22:13:07.0302789+01:00 8000001f-0002-fd00-b63f-84710c7967bb [ERR] Something went wrong inside GetAllAsync action: Error mapping types.
+
+Mapping types:
+IEnumerable`1 -> IEnumerable`1
+System.Collections.Generic.IEnumerable`1[[CotecnaB.Core.Entities.Inspection, CotecnaB.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.IEnumerable`1[[CotecnaB.Core.DTOs.InspectionDTO, CotecnaB.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] (69a76abd)
+2020-01-28T22:13:07.0374565+01:00 8000001f-0002-fd00-b63f-84710c7967bb [INF] Executed action method "CotectaB.WebApi.Controllers.InspectionController.GetAllAsync (CotectaB.WebApi)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 404.0722ms. (50a9e262)
+2020-01-28T22:13:07.0487128+01:00 8000001f-0002-fd00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"System.String"'. (8a1b66c8)
+2020-01-28T22:13:07.0634623+01:00 8000001f-0002-fd00-b63f-84710c7967bb [INF] Executed action "CotectaB.WebApi.Controllers.InspectionController.GetAllAsync (CotectaB.WebApi)" in 448.0903ms (afa2e885)
+2020-01-28T22:13:07.0657174+01:00 8000001f-0002-fd00-b63f-84710c7967bb [INF] Executed endpoint '"CotectaB.WebApi.Controllers.InspectionController.GetAllAsync (CotectaB.WebApi)"' (99874f2b)
+2020-01-28T22:13:07.0700701+01:00 8000001f-0002-fd00-b63f-84710c7967bb [INF] Request finished in 486.6174ms 500 text/plain; charset=utf-8 (791a596a)
+2020-01-28T22:13:08.9830175+01:00 80000018-0000-fd00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44337/api/inspection/Done   (ca22a1cb)
+2020-01-28T22:13:08.9860231+01:00 80000018-0000-fd00-b63f-84710c7967bb [INF] Executing endpoint '"CotectaB.WebApi.Controllers.InspectionController.GetFilteredByStatusAsync (CotectaB.WebApi)"' (500cc934)
+2020-01-28T22:13:09.0031252+01:00 80000018-0000-fd00-b63f-84710c7967bb [INF] Route matched with "{action = \"GetFilteredByStatusAsync\", controller = \"Inspection\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetFilteredByStatusAsync(CotecnaB.Core.Enums.Status)" on controller "CotectaB.WebApi.Controllers.InspectionController" ("CotectaB.WebApi"). (122b2fdf)
+2020-01-28T22:13:09.0049503+01:00 80000018-0000-fd00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"CotecnaEFContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2020-01-28T22:13:09.0177876+01:00 80000018-0000-fd00-b63f-84710c7967bb [INF] Executing action method "CotectaB.WebApi.Controllers.InspectionController.GetFilteredByStatusAsync (CotectaB.WebApi)" - Validation state: Valid (dad538d7)
+2020-01-28T22:13:09.0494312+01:00 80000018-0000-fd00-b63f-84710c7967bb [INF] Executed DbCommand ("3"ms) [Parameters=["@__status_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [m].[Id], [m].[Active], [m].[Created], [m].[Deleted], [m].[Discriminator], [m].[Modified], [m].[Address], [m].[Customer], [m].[Observations], [m].[Status]
+FROM [BaseEntity] AS [m]
+WHERE (([m].[Discriminator] = N'Inspection') AND ([m].[Active] = 0)) AND ([m].[Status] = @__status_0)
+ORDER BY [m].[Id]" (0723d8ff)
+2020-01-28T22:13:09.0600831+01:00 80000018-0000-fd00-b63f-84710c7967bb [INF] Executed DbCommand ("4"ms) [Parameters=["@__status_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [o.InspectionInspector].[InspectionId], [o.InspectionInspector].[InspectorId], [o.InspectionInspector].[InspectionDate], [t].[Id], [t].[Active], [t].[Created], [t].[Deleted], [t].[Discriminator], [t].[Modified], [t].[Name]
+FROM [InspectionInspector] AS [o.InspectionInspector]
+INNER JOIN (
+    SELECT [m0].[Id], [m0].[Active], [m0].[Created], [m0].[Deleted], [m0].[Discriminator], [m0].[Modified], [m0].[Name]
+    FROM [BaseEntity] AS [m0]
+    WHERE ([m0].[Discriminator] = N'Inspector') AND ([m0].[Active] = 0)
+) AS [t] ON [o.InspectionInspector].[InspectorId] = [t].[Id]
+INNER JOIN (
+    SELECT [m1].[Id]
+    FROM [BaseEntity] AS [m1]
+    WHERE (([m1].[Discriminator] = N'Inspection') AND ([m1].[Active] = 0)) AND ([m1].[Status] = @__status_0)
+) AS [t0] ON [o.InspectionInspector].[InspectionId] = [t0].[Id]
+ORDER BY [t0].[Id]" (0723d8ff)
+2020-01-28T22:13:09.0631274+01:00 80000018-0000-fd00-b63f-84710c7967bb [INF] Returned all inspections from database filtered by status : Done (03495360)
+2020-01-28T22:13:09.1169618+01:00 80000018-0000-fd00-b63f-84710c7967bb [ERR] Something went wrong inside GetFilteredByNameAsync action: Error mapping types.
+
+Mapping types:
+IEnumerable`1 -> IEnumerable`1
+System.Collections.Generic.IEnumerable`1[[CotecnaB.Core.Entities.Inspection, CotecnaB.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.IEnumerable`1[[CotecnaB.Core.DTOs.InspectionDTO, CotecnaB.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] (8217405f)
+2020-01-28T22:13:09.1182417+01:00 80000018-0000-fd00-b63f-84710c7967bb [INF] Executed action method "CotectaB.WebApi.Controllers.InspectionController.GetFilteredByStatusAsync (CotectaB.WebApi)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 99.2816ms. (50a9e262)
+2020-01-28T22:13:09.1196585+01:00 80000018-0000-fd00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"System.String"'. (8a1b66c8)
+2020-01-28T22:13:09.1211909+01:00 80000018-0000-fd00-b63f-84710c7967bb [INF] Executed action "CotectaB.WebApi.Controllers.InspectionController.GetFilteredByStatusAsync (CotectaB.WebApi)" in 116.9361ms (afa2e885)
+2020-01-28T22:13:09.1226869+01:00 80000018-0000-fd00-b63f-84710c7967bb [INF] Executed endpoint '"CotectaB.WebApi.Controllers.InspectionController.GetFilteredByStatusAsync (CotectaB.WebApi)"' (99874f2b)
+2020-01-28T22:13:09.1241730+01:00 80000018-0000-fd00-b63f-84710c7967bb [INF] Request finished in 142.0207ms 500 text/plain; charset=utf-8 (791a596a)
+2020-01-28T22:13:15.1567888+01:00 80000021-0003-ff00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44337/api/inspection/New   (ca22a1cb)
+2020-01-28T22:13:15.1583887+01:00 80000021-0003-ff00-b63f-84710c7967bb [INF] Executing endpoint '"CotectaB.WebApi.Controllers.InspectionController.GetFilteredByStatusAsync (CotectaB.WebApi)"' (500cc934)
+2020-01-28T22:13:15.1601337+01:00 80000021-0003-ff00-b63f-84710c7967bb [INF] Route matched with "{action = \"GetFilteredByStatusAsync\", controller = \"Inspection\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetFilteredByStatusAsync(CotecnaB.Core.Enums.Status)" on controller "CotectaB.WebApi.Controllers.InspectionController" ("CotectaB.WebApi"). (122b2fdf)
+2020-01-28T22:13:15.1623376+01:00 80000021-0003-ff00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"CotecnaEFContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2020-01-28T22:13:15.1648028+01:00 80000021-0003-ff00-b63f-84710c7967bb [INF] Executing action method "CotectaB.WebApi.Controllers.InspectionController.GetFilteredByStatusAsync (CotectaB.WebApi)" - Validation state: Valid (dad538d7)
+2020-01-28T22:13:15.1690074+01:00 80000021-0003-ff00-b63f-84710c7967bb [INF] Executed DbCommand ("1"ms) [Parameters=["@__status_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [m].[Id], [m].[Active], [m].[Created], [m].[Deleted], [m].[Discriminator], [m].[Modified], [m].[Address], [m].[Customer], [m].[Observations], [m].[Status]
+FROM [BaseEntity] AS [m]
+WHERE (([m].[Discriminator] = N'Inspection') AND ([m].[Active] = 0)) AND ([m].[Status] = @__status_0)
+ORDER BY [m].[Id]" (0723d8ff)
+2020-01-28T22:13:15.1714496+01:00 80000021-0003-ff00-b63f-84710c7967bb [INF] Executed DbCommand ("1"ms) [Parameters=["@__status_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [o.InspectionInspector].[InspectionId], [o.InspectionInspector].[InspectorId], [o.InspectionInspector].[InspectionDate], [t].[Id], [t].[Active], [t].[Created], [t].[Deleted], [t].[Discriminator], [t].[Modified], [t].[Name]
+FROM [InspectionInspector] AS [o.InspectionInspector]
+INNER JOIN (
+    SELECT [m0].[Id], [m0].[Active], [m0].[Created], [m0].[Deleted], [m0].[Discriminator], [m0].[Modified], [m0].[Name]
+    FROM [BaseEntity] AS [m0]
+    WHERE ([m0].[Discriminator] = N'Inspector') AND ([m0].[Active] = 0)
+) AS [t] ON [o.InspectionInspector].[InspectorId] = [t].[Id]
+INNER JOIN (
+    SELECT [m1].[Id]
+    FROM [BaseEntity] AS [m1]
+    WHERE (([m1].[Discriminator] = N'Inspection') AND ([m1].[Active] = 0)) AND ([m1].[Status] = @__status_0)
+) AS [t0] ON [o.InspectionInspector].[InspectionId] = [t0].[Id]
+ORDER BY [t0].[Id]" (0723d8ff)
+2020-01-28T22:13:15.1734865+01:00 80000021-0003-ff00-b63f-84710c7967bb [INF] Returned all inspections from database filtered by status : New (c2c47b7a)
+2020-01-28T22:13:15.2240367+01:00 80000021-0003-ff00-b63f-84710c7967bb [ERR] Something went wrong inside GetFilteredByNameAsync action: Error mapping types.
+
+Mapping types:
+IEnumerable`1 -> IEnumerable`1
+System.Collections.Generic.IEnumerable`1[[CotecnaB.Core.Entities.Inspection, CotecnaB.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.IEnumerable`1[[CotecnaB.Core.DTOs.InspectionDTO, CotecnaB.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] (8217405f)
+2020-01-28T22:13:15.2253698+01:00 80000021-0003-ff00-b63f-84710c7967bb [INF] Executed action method "CotectaB.WebApi.Controllers.InspectionController.GetFilteredByStatusAsync (CotectaB.WebApi)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 59.2938ms. (50a9e262)
+2020-01-28T22:13:15.2266013+01:00 80000021-0003-ff00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"System.String"'. (8a1b66c8)
+2020-01-28T22:13:15.2279611+01:00 80000021-0003-ff00-b63f-84710c7967bb [INF] Executed action "CotectaB.WebApi.Controllers.InspectionController.GetFilteredByStatusAsync (CotectaB.WebApi)" in 66.6537ms (afa2e885)
+2020-01-28T22:13:15.2298697+01:00 80000021-0003-ff00-b63f-84710c7967bb [INF] Executed endpoint '"CotectaB.WebApi.Controllers.InspectionController.GetFilteredByStatusAsync (CotectaB.WebApi)"' (99874f2b)
+2020-01-28T22:13:15.2319429+01:00 80000021-0003-ff00-b63f-84710c7967bb [INF] Request finished in 77.4527ms 500 text/plain; charset=utf-8 (791a596a)
+2020-01-28T22:13:53.7417863+01:00 80000023-0003-ff00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44337/api/values   (ca22a1cb)
+2020-01-28T22:13:53.8205266+01:00 80000023-0003-ff00-b63f-84710c7967bb [INF] Request finished in 86.3808ms 404  (791a596a)
+2020-01-28T22:14:16.1752501+01:00 80000025-0003-ff00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44337/api/inspection   (ca22a1cb)
+2020-01-28T22:14:16.1800126+01:00 80000025-0003-ff00-b63f-84710c7967bb [INF] Executing endpoint '"CotectaB.WebApi.Controllers.InspectionController.GetAllAsync (CotectaB.WebApi)"' (500cc934)
+2020-01-28T22:14:16.2028133+01:00 80000025-0003-ff00-b63f-84710c7967bb [INF] Route matched with "{action = \"GetAllAsync\", controller = \"Inspection\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllAsync()" on controller "CotectaB.WebApi.Controllers.InspectionController" ("CotectaB.WebApi"). (122b2fdf)
+2020-01-28T22:14:16.2356909+01:00 80000025-0003-ff00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"CotecnaEFContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2020-01-28T22:14:16.2438056+01:00 80000025-0003-ff00-b63f-84710c7967bb [INF] Executing action method "CotectaB.WebApi.Controllers.InspectionController.GetAllAsync (CotectaB.WebApi)" - Validation state: Valid (dad538d7)
+2020-01-28T22:14:16.3457881+01:00 80000025-0003-ff00-b63f-84710c7967bb [INF] Executed DbCommand ("10"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [m].[Id], [m].[Active], [m].[Created], [m].[Deleted], [m].[Discriminator], [m].[Modified], [m].[Address], [m].[Customer], [m].[Observations], [m].[Status]
+FROM [BaseEntity] AS [m]
+WHERE ([m].[Discriminator] = N'Inspection') AND ([m].[Active] = 0)
+ORDER BY [m].[Id]" (0723d8ff)
+2020-01-28T22:14:16.4284333+01:00 80000025-0003-ff00-b63f-84710c7967bb [INF] Executed DbCommand ("8"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [i.InspectionInspector].[InspectionId], [i.InspectionInspector].[InspectorId], [i.InspectionInspector].[InspectionDate], [t].[Id], [t].[Active], [t].[Created], [t].[Deleted], [t].[Discriminator], [t].[Modified], [t].[Name]
+FROM [InspectionInspector] AS [i.InspectionInspector]
+INNER JOIN (
+    SELECT [m0].[Id], [m0].[Active], [m0].[Created], [m0].[Deleted], [m0].[Discriminator], [m0].[Modified], [m0].[Name]
+    FROM [BaseEntity] AS [m0]
+    WHERE ([m0].[Discriminator] = N'Inspector') AND ([m0].[Active] = 0)
+) AS [t] ON [i.InspectionInspector].[InspectorId] = [t].[Id]
+INNER JOIN (
+    SELECT [m1].[Id]
+    FROM [BaseEntity] AS [m1]
+    WHERE ([m1].[Discriminator] = N'Inspection') AND ([m1].[Active] = 0)
+) AS [t0] ON [i.InspectionInspector].[InspectionId] = [t0].[Id]
+ORDER BY [t0].[Id]" (0723d8ff)
+2020-01-28T22:14:16.4704715+01:00 80000025-0003-ff00-b63f-84710c7967bb [INF] Returned all inspections from database. (475d94d1)
+2020-01-28T22:14:26.2999640+01:00 80000025-0003-ff00-b63f-84710c7967bb [INF] Executed action method "CotectaB.WebApi.Controllers.InspectionController.GetAllAsync (CotectaB.WebApi)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 10051.0009ms. (50a9e262)
+2020-01-28T22:14:26.3130906+01:00 80000025-0003-ff00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[CotecnaB.Core.DTOs.InspectionDTO, CotecnaB.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2020-01-28T22:14:26.3846172+01:00 80000025-0003-ff00-b63f-84710c7967bb [INF] Executed action "CotectaB.WebApi.Controllers.InspectionController.GetAllAsync (CotectaB.WebApi)" in 10175.5306ms (afa2e885)
+2020-01-28T22:14:26.3888163+01:00 80000025-0003-ff00-b63f-84710c7967bb [INF] Executed endpoint '"CotectaB.WebApi.Controllers.InspectionController.GetAllAsync (CotectaB.WebApi)"' (99874f2b)
+2020-01-28T22:14:26.4047387+01:00 80000025-0003-ff00-b63f-84710c7967bb [INF] Request finished in 10225.5762ms 200 application/json; charset=utf-8 (791a596a)
+2020-01-28T22:14:38.8718672+01:00 80000021-0001-fd00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44337/api/inspection/done   (ca22a1cb)
+2020-01-28T22:14:38.8748669+01:00 80000021-0001-fd00-b63f-84710c7967bb [INF] Executing endpoint '"CotectaB.WebApi.Controllers.InspectionController.GetFilteredByStatusAsync (CotectaB.WebApi)"' (500cc934)
+2020-01-28T22:14:38.8920005+01:00 80000021-0001-fd00-b63f-84710c7967bb [INF] Route matched with "{action = \"GetFilteredByStatusAsync\", controller = \"Inspection\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetFilteredByStatusAsync(CotecnaB.Core.Enums.Status)" on controller "CotectaB.WebApi.Controllers.InspectionController" ("CotectaB.WebApi"). (122b2fdf)
+2020-01-28T22:14:38.8955823+01:00 80000021-0001-fd00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"CotecnaEFContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2020-01-28T22:14:38.9066836+01:00 80000021-0001-fd00-b63f-84710c7967bb [INF] Executing action method "CotectaB.WebApi.Controllers.InspectionController.GetFilteredByStatusAsync (CotectaB.WebApi)" - Validation state: Valid (dad538d7)
+2020-01-28T22:14:38.9371367+01:00 80000021-0001-fd00-b63f-84710c7967bb [INF] Executed DbCommand ("3"ms) [Parameters=["@__status_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [m].[Id], [m].[Active], [m].[Created], [m].[Deleted], [m].[Discriminator], [m].[Modified], [m].[Address], [m].[Customer], [m].[Observations], [m].[Status]
+FROM [BaseEntity] AS [m]
+WHERE (([m].[Discriminator] = N'Inspection') AND ([m].[Active] = 0)) AND ([m].[Status] = @__status_0)
+ORDER BY [m].[Id]" (0723d8ff)
+2020-01-28T22:14:38.9481147+01:00 80000021-0001-fd00-b63f-84710c7967bb [INF] Executed DbCommand ("3"ms) [Parameters=["@__status_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [o.InspectionInspector].[InspectionId], [o.InspectionInspector].[InspectorId], [o.InspectionInspector].[InspectionDate], [t].[Id], [t].[Active], [t].[Created], [t].[Deleted], [t].[Discriminator], [t].[Modified], [t].[Name]
+FROM [InspectionInspector] AS [o.InspectionInspector]
+INNER JOIN (
+    SELECT [m0].[Id], [m0].[Active], [m0].[Created], [m0].[Deleted], [m0].[Discriminator], [m0].[Modified], [m0].[Name]
+    FROM [BaseEntity] AS [m0]
+    WHERE ([m0].[Discriminator] = N'Inspector') AND ([m0].[Active] = 0)
+) AS [t] ON [o.InspectionInspector].[InspectorId] = [t].[Id]
+INNER JOIN (
+    SELECT [m1].[Id]
+    FROM [BaseEntity] AS [m1]
+    WHERE (([m1].[Discriminator] = N'Inspection') AND ([m1].[Active] = 0)) AND ([m1].[Status] = @__status_0)
+) AS [t0] ON [o.InspectionInspector].[InspectionId] = [t0].[Id]
+ORDER BY [t0].[Id]" (0723d8ff)
+2020-01-28T22:14:38.9512058+01:00 80000021-0001-fd00-b63f-84710c7967bb [INF] Returned all inspections from database filtered by status : Done (03495360)
+2020-01-28T22:14:38.9531698+01:00 80000021-0001-fd00-b63f-84710c7967bb [INF] Executed action method "CotectaB.WebApi.Controllers.InspectionController.GetFilteredByStatusAsync (CotectaB.WebApi)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 45.2378ms. (50a9e262)
+2020-01-28T22:14:38.9545918+01:00 80000021-0001-fd00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[CotecnaB.Core.DTOs.InspectionDTO, CotecnaB.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2020-01-28T22:14:38.9571500+01:00 80000021-0001-fd00-b63f-84710c7967bb [INF] Executed action "CotectaB.WebApi.Controllers.InspectionController.GetFilteredByStatusAsync (CotectaB.WebApi)" in 63.2374ms (afa2e885)
+2020-01-28T22:14:38.9601771+01:00 80000021-0001-fd00-b63f-84710c7967bb [INF] Executed endpoint '"CotectaB.WebApi.Controllers.InspectionController.GetFilteredByStatusAsync (CotectaB.WebApi)"' (99874f2b)
+2020-01-28T22:14:38.9636307+01:00 80000021-0001-fd00-b63f-84710c7967bb [INF] Request finished in 91.1743ms 200 application/json; charset=utf-8 (791a596a)
+2020-01-28T22:14:44.2146616+01:00 80000012-0000-ff00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44337/api/inspection/new   (ca22a1cb)
+2020-01-28T22:14:44.2173372+01:00 80000012-0000-ff00-b63f-84710c7967bb [INF] Executing endpoint '"CotectaB.WebApi.Controllers.InspectionController.GetFilteredByStatusAsync (CotectaB.WebApi)"' (500cc934)
+2020-01-28T22:14:44.2189849+01:00 80000012-0000-ff00-b63f-84710c7967bb [INF] Route matched with "{action = \"GetFilteredByStatusAsync\", controller = \"Inspection\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetFilteredByStatusAsync(CotecnaB.Core.Enums.Status)" on controller "CotectaB.WebApi.Controllers.InspectionController" ("CotectaB.WebApi"). (122b2fdf)
+2020-01-28T22:14:44.2209228+01:00 80000012-0000-ff00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"CotecnaEFContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2020-01-28T22:14:44.2232125+01:00 80000012-0000-ff00-b63f-84710c7967bb [INF] Executing action method "CotectaB.WebApi.Controllers.InspectionController.GetFilteredByStatusAsync (CotectaB.WebApi)" - Validation state: Valid (dad538d7)
+2020-01-28T22:14:44.2291309+01:00 80000012-0000-ff00-b63f-84710c7967bb [INF] Executed DbCommand ("2"ms) [Parameters=["@__status_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [m].[Id], [m].[Active], [m].[Created], [m].[Deleted], [m].[Discriminator], [m].[Modified], [m].[Address], [m].[Customer], [m].[Observations], [m].[Status]
+FROM [BaseEntity] AS [m]
+WHERE (([m].[Discriminator] = N'Inspection') AND ([m].[Active] = 0)) AND ([m].[Status] = @__status_0)
+ORDER BY [m].[Id]" (0723d8ff)
+2020-01-28T22:14:44.2317472+01:00 80000012-0000-ff00-b63f-84710c7967bb [INF] Executed DbCommand ("1"ms) [Parameters=["@__status_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [o.InspectionInspector].[InspectionId], [o.InspectionInspector].[InspectorId], [o.InspectionInspector].[InspectionDate], [t].[Id], [t].[Active], [t].[Created], [t].[Deleted], [t].[Discriminator], [t].[Modified], [t].[Name]
+FROM [InspectionInspector] AS [o.InspectionInspector]
+INNER JOIN (
+    SELECT [m0].[Id], [m0].[Active], [m0].[Created], [m0].[Deleted], [m0].[Discriminator], [m0].[Modified], [m0].[Name]
+    FROM [BaseEntity] AS [m0]
+    WHERE ([m0].[Discriminator] = N'Inspector') AND ([m0].[Active] = 0)
+) AS [t] ON [o.InspectionInspector].[InspectorId] = [t].[Id]
+INNER JOIN (
+    SELECT [m1].[Id]
+    FROM [BaseEntity] AS [m1]
+    WHERE (([m1].[Discriminator] = N'Inspection') AND ([m1].[Active] = 0)) AND ([m1].[Status] = @__status_0)
+) AS [t0] ON [o.InspectionInspector].[InspectionId] = [t0].[Id]
+ORDER BY [t0].[Id]" (0723d8ff)
+2020-01-28T22:14:44.2336350+01:00 80000012-0000-ff00-b63f-84710c7967bb [INF] Returned all inspections from database filtered by status : New (c2c47b7a)
+2020-01-28T22:14:44.2348432+01:00 80000012-0000-ff00-b63f-84710c7967bb [INF] Executed action method "CotectaB.WebApi.Controllers.InspectionController.GetFilteredByStatusAsync (CotectaB.WebApi)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 10.54ms. (50a9e262)
+2020-01-28T22:14:44.2359994+01:00 80000012-0000-ff00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[CotecnaB.Core.DTOs.InspectionDTO, CotecnaB.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2020-01-28T22:14:44.2374564+01:00 80000012-0000-ff00-b63f-84710c7967bb [INF] Executed action "CotectaB.WebApi.Controllers.InspectionController.GetFilteredByStatusAsync (CotectaB.WebApi)" in 17.3658ms (afa2e885)
+2020-01-28T22:14:44.2387375+01:00 80000012-0000-ff00-b63f-84710c7967bb [INF] Executed endpoint '"CotectaB.WebApi.Controllers.InspectionController.GetFilteredByStatusAsync (CotectaB.WebApi)"' (99874f2b)
+2020-01-28T22:14:44.2402286+01:00 80000012-0000-ff00-b63f-84710c7967bb [INF] Request finished in 26.6818ms 200 application/json; charset=utf-8 (791a596a)
+2020-01-28T22:14:48.0455283+01:00 80000027-0003-ff00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44337/api/inspection/1   (ca22a1cb)
+2020-01-28T22:14:48.0467020+01:00 80000027-0003-ff00-b63f-84710c7967bb [INF] Executing endpoint '"CotectaB.WebApi.Controllers.InspectionController.GetFilteredByStatusAsync (CotectaB.WebApi)"' (500cc934)
+2020-01-28T22:14:48.0478998+01:00 80000027-0003-ff00-b63f-84710c7967bb [INF] Route matched with "{action = \"GetFilteredByStatusAsync\", controller = \"Inspection\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetFilteredByStatusAsync(CotecnaB.Core.Enums.Status)" on controller "CotectaB.WebApi.Controllers.InspectionController" ("CotectaB.WebApi"). (122b2fdf)
+2020-01-28T22:14:48.0494934+01:00 80000027-0003-ff00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"CotecnaEFContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2020-01-28T22:14:48.0513167+01:00 80000027-0003-ff00-b63f-84710c7967bb [INF] Executing action method "CotectaB.WebApi.Controllers.InspectionController.GetFilteredByStatusAsync (CotectaB.WebApi)" - Validation state: Valid (dad538d7)
+2020-01-28T22:14:48.0564460+01:00 80000027-0003-ff00-b63f-84710c7967bb [INF] Executed DbCommand ("1"ms) [Parameters=["@__status_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [m].[Id], [m].[Active], [m].[Created], [m].[Deleted], [m].[Discriminator], [m].[Modified], [m].[Address], [m].[Customer], [m].[Observations], [m].[Status]
+FROM [BaseEntity] AS [m]
+WHERE (([m].[Discriminator] = N'Inspection') AND ([m].[Active] = 0)) AND ([m].[Status] = @__status_0)
+ORDER BY [m].[Id]" (0723d8ff)
+2020-01-28T22:14:48.0588740+01:00 80000027-0003-ff00-b63f-84710c7967bb [INF] Executed DbCommand ("1"ms) [Parameters=["@__status_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [o.InspectionInspector].[InspectionId], [o.InspectionInspector].[InspectorId], [o.InspectionInspector].[InspectionDate], [t].[Id], [t].[Active], [t].[Created], [t].[Deleted], [t].[Discriminator], [t].[Modified], [t].[Name]
+FROM [InspectionInspector] AS [o.InspectionInspector]
+INNER JOIN (
+    SELECT [m0].[Id], [m0].[Active], [m0].[Created], [m0].[Deleted], [m0].[Discriminator], [m0].[Modified], [m0].[Name]
+    FROM [BaseEntity] AS [m0]
+    WHERE ([m0].[Discriminator] = N'Inspector') AND ([m0].[Active] = 0)
+) AS [t] ON [o.InspectionInspector].[InspectorId] = [t].[Id]
+INNER JOIN (
+    SELECT [m1].[Id]
+    FROM [BaseEntity] AS [m1]
+    WHERE (([m1].[Discriminator] = N'Inspection') AND ([m1].[Active] = 0)) AND ([m1].[Status] = @__status_0)
+) AS [t0] ON [o.InspectionInspector].[InspectionId] = [t0].[Id]
+ORDER BY [t0].[Id]" (0723d8ff)
+2020-01-28T22:14:48.0604103+01:00 80000027-0003-ff00-b63f-84710c7967bb [INF] Returned all inspections from database filtered by status : InProgress (dd5224ed)
+2020-01-28T22:14:48.0616168+01:00 80000027-0003-ff00-b63f-84710c7967bb [INF] Executed action method "CotectaB.WebApi.Controllers.InspectionController.GetFilteredByStatusAsync (CotectaB.WebApi)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 8.5024ms. (50a9e262)
+2020-01-28T22:14:48.0628616+01:00 80000027-0003-ff00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[CotecnaB.Core.DTOs.InspectionDTO, CotecnaB.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2020-01-28T22:14:48.0643313+01:00 80000027-0003-ff00-b63f-84710c7967bb [INF] Executed action "CotectaB.WebApi.Controllers.InspectionController.GetFilteredByStatusAsync (CotectaB.WebApi)" in 15.2473ms (afa2e885)
+2020-01-28T22:14:48.0668799+01:00 80000027-0003-ff00-b63f-84710c7967bb [INF] Executed endpoint '"CotectaB.WebApi.Controllers.InspectionController.GetFilteredByStatusAsync (CotectaB.WebApi)"' (99874f2b)
+2020-01-28T22:14:48.0697863+01:00 80000027-0003-ff00-b63f-84710c7967bb [INF] Request finished in 23.5768ms 200 application/json; charset=utf-8 (791a596a)
+2020-01-28T22:14:56.7689843+01:00 80000023-0001-fd00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44337/api/inspection/0   (ca22a1cb)
+2020-01-28T22:14:56.7702956+01:00 80000023-0001-fd00-b63f-84710c7967bb [INF] Executing endpoint '"CotectaB.WebApi.Controllers.InspectionController.GetFilteredByStatusAsync (CotectaB.WebApi)"' (500cc934)
+2020-01-28T22:14:56.7716869+01:00 80000023-0001-fd00-b63f-84710c7967bb [INF] Route matched with "{action = \"GetFilteredByStatusAsync\", controller = \"Inspection\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetFilteredByStatusAsync(CotecnaB.Core.Enums.Status)" on controller "CotectaB.WebApi.Controllers.InspectionController" ("CotectaB.WebApi"). (122b2fdf)
+2020-01-28T22:14:56.7733430+01:00 80000023-0001-fd00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"CotecnaEFContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2020-01-28T22:14:56.7745315+01:00 80000023-0001-fd00-b63f-84710c7967bb [INF] Executing action method "CotectaB.WebApi.Controllers.InspectionController.GetFilteredByStatusAsync (CotectaB.WebApi)" - Validation state: Valid (dad538d7)
+2020-01-28T22:14:56.7785832+01:00 80000023-0001-fd00-b63f-84710c7967bb [INF] Executed DbCommand ("1"ms) [Parameters=["@__status_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [m].[Id], [m].[Active], [m].[Created], [m].[Deleted], [m].[Discriminator], [m].[Modified], [m].[Address], [m].[Customer], [m].[Observations], [m].[Status]
+FROM [BaseEntity] AS [m]
+WHERE (([m].[Discriminator] = N'Inspection') AND ([m].[Active] = 0)) AND ([m].[Status] = @__status_0)
+ORDER BY [m].[Id]" (0723d8ff)
+2020-01-28T22:14:56.7807149+01:00 80000023-0001-fd00-b63f-84710c7967bb [INF] Executed DbCommand ("1"ms) [Parameters=["@__status_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [o.InspectionInspector].[InspectionId], [o.InspectionInspector].[InspectorId], [o.InspectionInspector].[InspectionDate], [t].[Id], [t].[Active], [t].[Created], [t].[Deleted], [t].[Discriminator], [t].[Modified], [t].[Name]
+FROM [InspectionInspector] AS [o.InspectionInspector]
+INNER JOIN (
+    SELECT [m0].[Id], [m0].[Active], [m0].[Created], [m0].[Deleted], [m0].[Discriminator], [m0].[Modified], [m0].[Name]
+    FROM [BaseEntity] AS [m0]
+    WHERE ([m0].[Discriminator] = N'Inspector') AND ([m0].[Active] = 0)
+) AS [t] ON [o.InspectionInspector].[InspectorId] = [t].[Id]
+INNER JOIN (
+    SELECT [m1].[Id]
+    FROM [BaseEntity] AS [m1]
+    WHERE (([m1].[Discriminator] = N'Inspection') AND ([m1].[Active] = 0)) AND ([m1].[Status] = @__status_0)
+) AS [t0] ON [o.InspectionInspector].[InspectionId] = [t0].[Id]
+ORDER BY [t0].[Id]" (0723d8ff)
+2020-01-28T22:14:56.7827126+01:00 80000023-0001-fd00-b63f-84710c7967bb [INF] Returned all inspections from database filtered by status : New (c2c47b7a)
+2020-01-28T22:14:56.7839770+01:00 80000023-0001-fd00-b63f-84710c7967bb [INF] Executed action method "CotectaB.WebApi.Controllers.InspectionController.GetFilteredByStatusAsync (CotectaB.WebApi)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 8.3367ms. (50a9e262)
+2020-01-28T22:14:56.7851523+01:00 80000023-0001-fd00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[CotecnaB.Core.DTOs.InspectionDTO, CotecnaB.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2020-01-28T22:14:56.7866027+01:00 80000023-0001-fd00-b63f-84710c7967bb [INF] Executed action "CotectaB.WebApi.Controllers.InspectionController.GetFilteredByStatusAsync (CotectaB.WebApi)" in 13.7569ms (afa2e885)
+2020-01-28T22:14:56.7878681+01:00 80000023-0001-fd00-b63f-84710c7967bb [INF] Executed endpoint '"CotectaB.WebApi.Controllers.InspectionController.GetFilteredByStatusAsync (CotectaB.WebApi)"' (99874f2b)
+2020-01-28T22:14:56.7896330+01:00 80000023-0001-fd00-b63f-84710c7967bb [INF] Request finished in 20.6243ms 200 application/json; charset=utf-8 (791a596a)
+2020-01-28T22:15:04.4510825+01:00 80000004-0002-fb00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44337/api/inspection/3   (ca22a1cb)
+2020-01-28T22:15:04.4534423+01:00 80000004-0002-fb00-b63f-84710c7967bb [INF] Executing endpoint '"CotectaB.WebApi.Controllers.InspectionController.GetFilteredByStatusAsync (CotectaB.WebApi)"' (500cc934)
+2020-01-28T22:15:04.4554149+01:00 80000004-0002-fb00-b63f-84710c7967bb [INF] Route matched with "{action = \"GetFilteredByStatusAsync\", controller = \"Inspection\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetFilteredByStatusAsync(CotecnaB.Core.Enums.Status)" on controller "CotectaB.WebApi.Controllers.InspectionController" ("CotectaB.WebApi"). (122b2fdf)
+2020-01-28T22:15:04.4570303+01:00 80000004-0002-fb00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"CotecnaEFContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2020-01-28T22:15:04.4596809+01:00 80000004-0002-fb00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"Microsoft.AspNetCore.Mvc.ValidationProblemDetails"'. (8a1b66c8)
+2020-01-28T22:15:04.4706057+01:00 80000004-0002-fb00-b63f-84710c7967bb [INF] Executed action "CotectaB.WebApi.Controllers.InspectionController.GetFilteredByStatusAsync (CotectaB.WebApi)" in 13.564ms (afa2e885)
+2020-01-28T22:15:04.4722694+01:00 80000004-0002-fb00-b63f-84710c7967bb [INF] Executed endpoint '"CotectaB.WebApi.Controllers.InspectionController.GetFilteredByStatusAsync (CotectaB.WebApi)"' (99874f2b)
+2020-01-28T22:15:04.4745264+01:00 80000004-0002-fb00-b63f-84710c7967bb [INF] Request finished in 22.9957ms 400 application/problem+json; charset=utf-8 (791a596a)
+2020-01-28T22:15:08.2865461+01:00 80000014-0000-ff00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44337/api/inspection/2   (ca22a1cb)
+2020-01-28T22:15:08.2897544+01:00 80000014-0000-ff00-b63f-84710c7967bb [INF] Executing endpoint '"CotectaB.WebApi.Controllers.InspectionController.GetFilteredByStatusAsync (CotectaB.WebApi)"' (500cc934)
+2020-01-28T22:15:08.2916967+01:00 80000014-0000-ff00-b63f-84710c7967bb [INF] Route matched with "{action = \"GetFilteredByStatusAsync\", controller = \"Inspection\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetFilteredByStatusAsync(CotecnaB.Core.Enums.Status)" on controller "CotectaB.WebApi.Controllers.InspectionController" ("CotectaB.WebApi"). (122b2fdf)
+2020-01-28T22:15:08.2937607+01:00 80000014-0000-ff00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"CotecnaEFContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2020-01-28T22:15:08.2953667+01:00 80000014-0000-ff00-b63f-84710c7967bb [INF] Executing action method "CotectaB.WebApi.Controllers.InspectionController.GetFilteredByStatusAsync (CotectaB.WebApi)" - Validation state: Valid (dad538d7)
+2020-01-28T22:15:08.2991490+01:00 80000014-0000-ff00-b63f-84710c7967bb [INF] Executed DbCommand ("1"ms) [Parameters=["@__status_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [m].[Id], [m].[Active], [m].[Created], [m].[Deleted], [m].[Discriminator], [m].[Modified], [m].[Address], [m].[Customer], [m].[Observations], [m].[Status]
+FROM [BaseEntity] AS [m]
+WHERE (([m].[Discriminator] = N'Inspection') AND ([m].[Active] = 0)) AND ([m].[Status] = @__status_0)
+ORDER BY [m].[Id]" (0723d8ff)
+2020-01-28T22:15:08.3015808+01:00 80000014-0000-ff00-b63f-84710c7967bb [INF] Executed DbCommand ("1"ms) [Parameters=["@__status_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [o.InspectionInspector].[InspectionId], [o.InspectionInspector].[InspectorId], [o.InspectionInspector].[InspectionDate], [t].[Id], [t].[Active], [t].[Created], [t].[Deleted], [t].[Discriminator], [t].[Modified], [t].[Name]
+FROM [InspectionInspector] AS [o.InspectionInspector]
+INNER JOIN (
+    SELECT [m0].[Id], [m0].[Active], [m0].[Created], [m0].[Deleted], [m0].[Discriminator], [m0].[Modified], [m0].[Name]
+    FROM [BaseEntity] AS [m0]
+    WHERE ([m0].[Discriminator] = N'Inspector') AND ([m0].[Active] = 0)
+) AS [t] ON [o.InspectionInspector].[InspectorId] = [t].[Id]
+INNER JOIN (
+    SELECT [m1].[Id]
+    FROM [BaseEntity] AS [m1]
+    WHERE (([m1].[Discriminator] = N'Inspection') AND ([m1].[Active] = 0)) AND ([m1].[Status] = @__status_0)
+) AS [t0] ON [o.InspectionInspector].[InspectionId] = [t0].[Id]
+ORDER BY [t0].[Id]" (0723d8ff)
+2020-01-28T22:15:08.3033260+01:00 80000014-0000-ff00-b63f-84710c7967bb [INF] Returned all inspections from database filtered by status : Done (03495360)
+2020-01-28T22:15:08.3058902+01:00 80000014-0000-ff00-b63f-84710c7967bb [INF] Executed action method "CotectaB.WebApi.Controllers.InspectionController.GetFilteredByStatusAsync (CotectaB.WebApi)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 7.928ms. (50a9e262)
+2020-01-28T22:15:08.3081023+01:00 80000014-0000-ff00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[CotecnaB.Core.DTOs.InspectionDTO, CotecnaB.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2020-01-28T22:15:08.3098501+01:00 80000014-0000-ff00-b63f-84710c7967bb [INF] Executed action "CotectaB.WebApi.Controllers.InspectionController.GetFilteredByStatusAsync (CotectaB.WebApi)" in 16.7479ms (afa2e885)
+2020-01-28T22:15:08.3118296+01:00 80000014-0000-ff00-b63f-84710c7967bb [INF] Executed endpoint '"CotectaB.WebApi.Controllers.InspectionController.GetFilteredByStatusAsync (CotectaB.WebApi)"' (99874f2b)
+2020-01-28T22:15:08.3148767+01:00 80000014-0000-ff00-b63f-84710c7967bb [INF] Request finished in 27.4036ms 200 application/json; charset=utf-8 (791a596a)
